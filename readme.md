@@ -1,55 +1,66 @@
-# Scout
+# scout_2_prototype
 
-![Scout](assembly_guide/static/img/scout-10-838-032.gif)
+This is a PCB I sent off to fab in TODO_DATE. I'm kind of using it as a springboard for the next thing, whatever that is and whenever it happens!
 
-**scout** (_/skout/_):
+So, yes, very much work-in-progress. License will be MIT like other kits.
 
-1. _One sent to obtain information_
-2. _Jean Louise “Scout” Finch, of Atticus Finch_
-3. _The first synth from Oskitone to venture into the big ol' world of microcontrollers_
+## In this repo
 
-The Scout is:
+TODO
 
-- **Beginner-friendly:** All components are through-hole (instead of surface mount) for easier soldering, and full assembly takes about 45min. Standalone, battery-powered, doesn't need a computer or external speakers to work. Fun!
-- **3D-Printable:** Besides the electronics and nuts and bolts, all parts are 3D-printed. And with a total width of ~160mm (about 6.3"), the Scout can fit on smaller, "Mini" (18x18x18cm) size print beds.
-- **Hackable:** Arduino-compatible and fully open source! Hook up an [FTDI Serial TTL-232 cable](https://www.adafruit.com/product/70) (sold separately) to update its code using the Arduino IDE.
-- **Minimally featured:** 1.5 octaves of keys, a volume knob, on/off switch, speaker, headphone jack. Monophonic square wave with fixed glide and octave.
+- forked from LINK
+- STLs in FOLDER
 
-In addition to it being the first microcontroller-controlled instrument from Oskitone, the Scout would also make a fine introductory DIY instrument for the budding electronics hobbyist. (Some experience soldering and a general familiarity with how electricity works are recommended though!)
+## Goals
 
-As such, it is intentionally minimal, with the goal of the shortest possible time from starting the kit to making music with it. No MIDI/CV or other IO, as is. If you're looking for a full-featured studio instrument, this ain't it, bub! :)
+- Design goals
+  - Easy to solder. Only through-hole parts, even if it limits functionality.
+  - Easy to change. Code can be edited with free software and cheap hardware.
+  - Easy to play. No hidden menus, secret key combos, or overloading. One control per one function.
+  - Easy to understand, code should be relatively accessible to anybody familiar with Arduino.
+  - Easy to hack. Programming header, usual open source ethos stuff.
+- Polyphony
+  - Per my ability, four is a reasonable number of notes to play simultaneously. Three is okay but would be frustrating. Two would be funny?
+  - Anyway, four notes is what D9-12 are attempting. At the time, I was thinking I could tack some math around millis() and make the square waves manually... maybe use an interrupt timer? My pin choice seems random, and there're probably better choices.
+- Any kind of musical connectivity
+  - MIDI
+    - USB is modern but circular DIN connectors are standard and inarguably answer the question "But can it do MIDI?!"
+    - I think I'd also need non-DIP chips to do USB MIDI so that's out
+    - I don't if both IN and OUT are necessary or which to prefer if there can only be one. DIN connectors are big; [TRS MIDI](https://minimidi.world/) is an option.
+  - Control Voltage
+    - I'm open to this but don't really know the scene well enough to know what would be good. If it's easy to add, sure.
+- Support for Mozzi w/o shipping w/ it
+  - I want it to still feel solidly like an Oskitone instrument, for better and no doubt worse. Blame ["not invented here" syndrome](https://en.wikipedia.org/wiki/Not_invented_here).
+  - Mozzi is cool as hell but it does require reading docs, which maybe breaks the "easy to understand" goal.
+  - <del>Plus, even if I wanted to, I don't think Mozzi's license would permit me selling kits w/ it.</del> [Looks like they're GNU LGPL now](https://github.com/sensorium/Mozzi/pull/240), so may sbe okay.
+  - That having been said, I want to engender "side-loading" things like this and make swapping to Mozzi straightforward, especially if the barrier to entry is low. So minimally it needs the right pins, an output filter, maybe other changes too.
+- More musically useful than the Scout
+  - Same size keys but as many as I can fit on a Prusa.
+  - A semblance of control with analog input pots. Currently doing octave and glide.
+  - Glide is fun but will be weird if/when polyphony is introduced. Could do poly only at 0 glide
 
-**Demo:** [https://vimeo.com/587660426](https://vimeo.com/587660426)<br />
-**Purchase a kit:** [https://www.oskitone.com/product/scout-synth-diy-electronics-kit](https://www.oskitone.com/product/scout-synth-diy-electronics-kit)<br />
-**Assembly guide:** [https://oskitone.github.io/scout/](https://oskitone.github.io/scout/)<br />
-**Blog post:** [https://blog.tommy.sh/posts/scout/](https://blog.tommy.sh/posts/scout/)
+## TODO / known issues / things for next rev
 
-## 3D Models
-
-The Scout's 3D-printed models are written in OpenSCAD.
-
-### Dependencies
-
-Assumes `poly555` and `apc` repos are in a sibling directory and are _both up to date_ on the `main` branch. Here's how I've got it:
-
-    \ oskitone
-        \ apc
-        \ poly555
-        \ scout
-
-You'll also need to install the [Orbitron](https://fonts.google.com/specimen/Orbitron) font.
-
-### Building
-
-STLs are generated with `make_stls.sh`. Run `./make_stls.sh -h` for full flags list.
-
-### Changelog
-
-- **September 6, 2021:** Loosen knob fit on pot shaft (6cce7a7)
-- **August 9, 2021:** Init (9b5ffe5)
-
-## License
-
-Designed by Oskitone. Please support future synth projects by purchasing from [Oskitone](https://www.oskitone.com/).
-
-Creative Commons Attribution/Share-Alike, all text above must be included in any redistribution. See license.txt for additional details.
+- prototype base
+  - TODO more PCB clearance against battery
+  - TODO supports in back
+  - TODO? make battery holder easier to access w/o removing keys
+- 3D prints
+  - Since the steps are so few and discrete on the octave control pot, it really needs detents or some kinda tactile feedback on rotation.
+- For current firmware
+  - RGB LED's red is unused
+  - Mute or use unused output pins D10-D12
+- Schematic
+  - keyboard_matrix uses digital pin assignments, not analog. So either rename (or, better) duplicate name labels so the schematic matches code
+  - rotate RV2 and RV3 voltage dividers
+  - mirror MIDI in horizontally so it reads left to right
+  - Specify 1N4148 diodes
+  - and when all that's done, export and put it in readme
+- For next rev
+  - Needs decoupling cap before amp, probably
+  - Header pin connection assignments w/ 2x connectors for defaults (TODO: what'd I mean by this)
+  - Move text beyond key area
+  - More key mounting screw holes? Key bed subassembly with multiple parts
+- Implement MIDI in/out
+- Power switch is reversed. It should power on when actuator is "up" like Scout
+- Needs a bigger speaker for bass!
