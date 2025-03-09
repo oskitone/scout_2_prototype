@@ -42,7 +42,6 @@ TODO
 ## TODO / known issues / things for next rev
 
 - prototype base
-  - TODO more PCB clearance against battery
   - TODO supports in back
   - TODO? make battery holder easier to access w/o removing keys
 - 3D prints

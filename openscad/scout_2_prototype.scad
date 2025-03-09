@@ -15,6 +15,7 @@ module scout_2_prototype(
     keys_length = SCOUT_NATURAL_KEY_LENGTH,
 
     pcb_silkscreen_path = "../kicad/XYZ-brd.svg",
+    pcb_bottom_clearance = 15,
 
     padding = 4,
     tolerance = .1,
@@ -50,15 +51,13 @@ module scout_2_prototype(
         tolerance = tolerance
     );
 
-    min_pcb_bottom_clearance = battery_holder_dimensions.z + MIN_PCB_BOTTOM_CLEARANCE;
-
     pcb_position = [
         (base_width - pcb_dimensions.x) / 2,
         keys_total_length
             - screw_positions[0].y - KEYS_MOUNT_LENGTH / 2
             + padding,
         get_pcb_base_total_height(
-            min_clearance = min_pcb_bottom_clearance,
+            min_clearance = pcb_bottom_clearance,
             pcb_mount_post_ceiling = PCB_MOUNT_POST_CEILING
         )
     ];
@@ -102,7 +101,7 @@ module scout_2_prototype(
         pcb_base(
             width = base_width,
             length = base_length,
-            min_pcb_bottom_clearance = min_pcb_bottom_clearance,
+            pcb_bottom_clearance = pcb_bottom_clearance,
             screw_positions = [ for (xy = screw_positions) [
                 xy.x + pcb_position.x,
                 xy.y + pcb_position.y
