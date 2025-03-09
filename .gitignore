@@ -1,0 +1,11 @@
+build/
+local/
+imgui.ini
+.vscode/
+
+kicad/*/*-backups/
+kicad/*/#auto_saved_files#
+kicad/*/fp-info-cache
+kicad/*/_autosave-*
+kicad/*/*.kicad_prl
+kicad/*/*.lck
