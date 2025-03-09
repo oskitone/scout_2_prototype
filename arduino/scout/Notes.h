@@ -3,7 +3,7 @@
 
 #include "Arduino.h"
 
-const int NOTES_COUNT = 17;
+const int NOTES_COUNT = 25;
 
 class Notes {
   public:

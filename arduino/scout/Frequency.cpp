@@ -11,17 +11,17 @@ float Frequency::get() {
   return _frequency;
 }
 
-void Frequency::update(float target) {
+void Frequency::update(float target, float glide) {
   _target = target;
   bool needsUpdate = _frequency != _target;
 
   if (needsUpdate) {
-    if ((_frequency == 0) || (_glide == 0)) {
+    if ((_frequency == 0) || (glide == 0)) {
       _frequency = _target;
     } else {
       if (_target != _previousTarget) {
         _glideStep = abs(_target - _previousTarget)
-                     / (_glide * _cyclesPerGlideMax);
+                     / (glide * _cyclesPerGlideMax);
       }
 
       _frequency = (_target > _frequency)

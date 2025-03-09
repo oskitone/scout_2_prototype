@@ -7,7 +7,7 @@
 class Frequency {
   public:
     Frequency(float glide, int cyclesPerGlideMax);
-    void update(float target);
+    void update(float target, float glide);
     float get();
     void reset();
     void print();

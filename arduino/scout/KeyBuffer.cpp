@@ -5,15 +5,16 @@
 #include <CircularBuffer.h>
 #include <Keypad.h>
 
-const byte ROWS = 4;
+const byte ROWS = 5;
 const byte COLS = 5;
 byte key_indexes[ROWS][COLS] = {
-  {1, 5, 9, 12, 15},
-  {2, 6, 10, 13, 16},
-  {3, 7, 11, 14, 17},
-  {4, 8}
+  {1, 6, 11, 16, 21},
+  {2, 7, 12, 17, 22},
+  {3, 8, 13, 18, 23},
+  {4, 9, 14, 19, 24},
+  {5, 10, 15, 20, 25}
 };
-byte rowPins[ROWS] = {7, 8, 9, 10};
+byte rowPins[ROWS] = {7, 8, 14, 15, 16};
 byte colPins[COLS] = {2, 3, 4, 5, 6};
 
 Keypad _buttons = Keypad(makeKeymap(key_indexes), rowPins, colPins, ROWS, COLS);
