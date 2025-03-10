@@ -260,7 +260,7 @@ scout_2_prototype(
         [182.16, 103.375],
         [75.46329, 103.425],
     ],
-    fillet_keys = false,
+    fillet_keys = !$preview,
     pcb_silkscreen_path = "../images/scout-2-brd-d72051a.svg",
     show_base = true,
     show_battery_holder = true,
