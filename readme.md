@@ -42,7 +42,6 @@ TODO
 ## TODO / known issues / things for next rev
 
 - prototype base
-  - TODO supports in back
   - TODO? make battery holder easier to access w/o removing keys
 - 3D prints
   - Since the steps are so few and discrete on the octave control pot, it really needs detents or some kinda tactile feedback on rotation.

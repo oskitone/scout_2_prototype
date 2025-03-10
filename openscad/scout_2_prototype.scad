@@ -94,7 +94,15 @@ module scout_2_prototype(
     module _base(
         support_bar_pcb_xs = [0, SPST_PLOT * 14, SPST_PLOT * 22],
         support_bar_pcb_y = 14,
-        support_bar_widths = [SPST_PLOT * 6, SPST_PLOT * 3, SPST_PLOT * 7]
+        support_bar_widths = [SPST_PLOT * 6, SPST_PLOT * 3, SPST_PLOT * 7],
+
+        // Eyeballed! See images/support_positions.png
+        stool_pcb_positions = [
+            [7, 40],
+            [75, 40],
+            [140, 40],
+            [212, 40],
+        ]
     ) {
         z = PCB_BASE_BASE_HEIGHT - e;
 
@@ -106,6 +114,12 @@ module scout_2_prototype(
                 xy.x + pcb_position.x,
                 xy.y + pcb_position.y
             ] ],
+            stool_positions = [
+                for (xy = stool_pcb_positions) [
+                    xy.x + pcb_position.x,
+                    xy.y + pcb_position.y
+                ]
+            ],
             tolerance = tolerance,
             show_dfm = !$preview
         );
