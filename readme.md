@@ -67,6 +67,33 @@ Anything else?
 
 https://github.com/user-attachments/assets/99f4f9d2-c58f-4821-b225-9032d2b2e849
 
+## BOM
+
+| Designator           | Footprint                                         | Quantity | Designation        |
+| -------------------- | ------------------------------------------------- | -------- | ------------------ |
+| SW1-SW25             | SW_PUSH_6mm                                       | 25       | SPST               |
+| BT1                  | PinHeader_1x02_P2.54mm_Vertical                   | 1        | 4.5v               |
+| LS1                  | PinHeader_1x02_P2.54mm_Vertical                   | 1        | Speaker            |
+| RV1                  | Potentiometer_Bourns_PTV09A-1_Single_Vertical     | 1        | 10k Log            |
+| Y1                   | Resonator-3Pin_W7.0mm_H2.5mm                      | 1        | 16.00MHz           |
+| U2                   | DIP-8_W7.62mm                                     | 1        | LM386              |
+| R4,R5,R7,R6          | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 4        | 10K                |
+| J1                   | AUDIO-JACK                                        | 1        | AudioJack2_SwitchT |
+| C2,C4,C5             | C_Disc_D5.0mm_W2.5mm_P5.00mm                      | 3        | .1uF               |
+| C6,C1                | CP_Radial_D8.0mm_P3.50mm                          | 2        | 220uF              |
+| U1                   | DIP-28_W7.62mm                                    | 1        | ATmega328P-PU      |
+| D1-D25,D27           | D_DO-41_SOD81_P10.16mm_Horizontal                 | 26       | D                  |
+| J2                   | PinHeader_1x06_P2.54mm_Horizontal                 | 1        | Conn_01x06_Male    |
+| R8                   | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 1        | 1m                 |
+| R9,R13               | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 2        | 10k                |
+| R10,R1,R11,R3,R2,R12 | R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal | 6        | 220                |
+| D26                  | LED_D5.0mm-4_RGB_Staggered_Pins                   | 1        | LED_CRGB           |
+| J4,J3                | DIN5-RA-PTH                                       | 2        | DIN5               |
+| SW26                 | SW_Slide_1P2T_CK_OS102011MS2Q                     | 1        | SW_SPST            |
+| RV2,RV3              | Potentiometer_Bourns_PTV09A-1_Single_Vertical     | 2        | 10k                |
+| C3                   | CP_Radial_D5.0mm_P2.00mm                          | 1        | 1uF                |
+| U3                   | DIP-8_W7.62mm                                     | 1        | 6N138              |
+
 ## Schematics
 
 ![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
