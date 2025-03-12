@@ -1,30 +1,33 @@
 # scout_2_prototype
 
-This is a PCB I sent off to fab in TODO_DATE. I'm kind of using it as a springboard for the next thing, whatever that is and whenever it happens!
+![scout_2_prototype](/misc/s2p.jpg)
 
-So, yes, very much work-in-progress. License will be MIT like other kits.
+This is a prototype around a PCB I sent off to fab in March 2022... that I'm slowly bringing back to life. I'm kind of using it as a springboard for the next thing, whatever that is and whenever it happens!
 
-## Schematics
+Very much work-in-progress. License will be MIT like other kits.
 
-![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
-
-![scout_2_prototype-keyboard_matrix-schematic](/kicad/scout_2_prototype-keyboard_matrix-schematic.svg)
+Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys) branch
 
 ## In this repo
 
-TODO
+![top view](/misc/model-top.png)
 
-- forked from LINK
-- STLs in FOLDER
+- Kicad project
+- OpenSCAD for scaffolding and keys models
+- STLs for 3D-printing
 
 ## Goals
 
-- Design goals
-  - Easy to solder. Only through-hole parts, even if it limits functionality.
-  - Easy to change. Code can be edited with free software and cheap hardware.
-  - Easy to play. No hidden menus, secret key combos, or overloading. One control per one function.
-  - Easy to understand, code should be relatively accessible to anybody familiar with Arduino.
-  - Easy to hack. Programming header, usual open source ethos stuff.
+### Overarching Oskitone Design goals
+
+- Easy to solder. Only through-hole parts, even if it limits functionality.
+- Easy to change. Code can be edited with free software and cheap hardware.
+- Easy to play. No hidden menus, secret key combos, or overloading. One control per one function.
+- Easy to understand, code should be relatively accessible to anybody familiar with Arduino.
+- Easy to hack. Programming header (TODO? hmm), usual open source ethos stuff.
+
+### And specific to the next ~synth
+
 - Polyphony
   - Per my ability, four is a reasonable number of notes to play simultaneously. Three is okay but would be frustrating. Two would be funny?
   - Anyway, four notes is what D9-12 are attempting. At the time, I was thinking I could tack some math around millis() and make the square waves manually... maybe use an interrupt timer? My pin choice seems random, and there're probably better choices.
@@ -54,8 +57,16 @@ TODO
   - Mute or use unused output pins D10-D12
 - For next rev
   - Needs decoupling cap before amp, probably
-  - Header pin connection assignments w/ 2x connectors for defaults (TODO: what'd I mean by this)
+  - Self-document pin connection assignments in schematic
   - Move text beyond key area
   - More key mounting screw holes? Key bed subassembly with multiple parts
 - Power switch is reversed. It should power on when actuator is "up" like Scout
 - Needs a bigger speaker for bass!
+
+Anything else?
+
+## Schematics
+
+![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
+
+![scout_2_prototype-keyboard_matrix-schematic](/kicad/scout_2_prototype-keyboard_matrix-schematic.svg)
