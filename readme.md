@@ -65,6 +65,8 @@ Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys
 
 Anything else?
 
+https://github.com/user-attachments/assets/99f4f9d2-c58f-4821-b225-9032d2b2e849
+
 ## Schematics
 
 ![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
