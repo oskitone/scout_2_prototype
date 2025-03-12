@@ -4,6 +4,12 @@ This is a PCB I sent off to fab in TODO_DATE. I'm kind of using it as a springbo
 
 So, yes, very much work-in-progress. License will be MIT like other kits.
 
+## Schematics
+
+![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
+
+![scout_2_prototype-keyboard_matrix-schematic](/kicad/scout_2_prototype-keyboard_matrix-schematic.svg)
+
 ## In this repo
 
 TODO
@@ -41,24 +47,15 @@ TODO
 
 ## TODO / known issues / things for next rev
 
-- prototype base
-  - TODO? make battery holder easier to access w/o removing keys
 - 3D prints
-  - Since the steps are so few and discrete on the octave control pot, it really needs detents or some kinda tactile feedback on rotation.
+  - Octave control really needs detents or some kinda tactile feedback on rotation.
 - For current firmware
   - RGB LED's red is unused
   - Mute or use unused output pins D10-D12
-- Schematic
-  - keyboard_matrix uses digital pin assignments, not analog. So either rename (or, better) duplicate name labels so the schematic matches code
-  - rotate RV2 and RV3 voltage dividers
-  - mirror MIDI in horizontally so it reads left to right
-  - Specify 1N4148 diodes
-  - and when all that's done, export and put it in readme
 - For next rev
   - Needs decoupling cap before amp, probably
   - Header pin connection assignments w/ 2x connectors for defaults (TODO: what'd I mean by this)
   - Move text beyond key area
   - More key mounting screw holes? Key bed subassembly with multiple parts
-- Implement MIDI in/out
 - Power switch is reversed. It should power on when actuator is "up" like Scout
 - Needs a bigger speaker for bass!

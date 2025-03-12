@@ -296,7 +296,7 @@
 	)
 	(text "2021/12/15"
 		(exclude_from_sim no)
-		(at 207.01 194.31 0)
+		(at 201.93 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -307,7 +307,7 @@
 	)
 	(text "Scout keyboard matrix"
 		(exclude_from_sim no)
-		(at 189.23 190.5 0)
+		(at 184.15 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -318,7 +318,7 @@
 	)
 	(text "_d"
 		(exclude_from_sim no)
-		(at 269.24 194.31 0)
+		(at 264.16 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -328,248 +328,248 @@
 		(uuid "6ea2b0f7-23bc-4fdc-9b4d-c039871e07e9")
 	)
 	(junction
-		(at 156.21 113.03)
+		(at 151.13 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d558693-7ea1-4300-b487-7eb362eea176")
 	)
 	(junction
-		(at 133.35 80.01)
+		(at 128.27 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25202c17-62b5-4638-abf0-aa8737b1670a")
 	)
 	(junction
-		(at 160.02 92.71)
+		(at 154.94 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3526446d-4269-4a6c-a747-4dae2d6d176d")
 	)
 	(junction
-		(at 156.21 125.73)
+		(at 151.13 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bf6db23-3aec-4501-8ecc-f01e99c8bfd8")
 	)
 	(junction
-		(at 182.88 87.63)
+		(at 177.8 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f9b00ce-4fe3-4f2c-838b-64af7bb5be38")
 	)
 	(junction
-		(at 106.68 80.01)
+		(at 101.6 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "45a60ff1-71f7-4ca5-bce7-dd7eb3033543")
 	)
 	(junction
-		(at 160.02 67.31)
+		(at 154.94 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "486fb1df-cadb-4070-8509-1a9236987122")
 	)
 	(junction
-		(at 102.87 87.63)
+		(at 97.79 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "489fad92-18b5-4ff3-bfcc-446d72d499b0")
 	)
 	(junction
-		(at 106.68 118.11)
+		(at 101.6 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5287f433-9893-45fa-a242-6e4d28397cc5")
 	)
 	(junction
-		(at 102.87 125.73)
+		(at 97.79 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69025444-b4a1-40ea-8f57-87989d6616fb")
 	)
 	(junction
-		(at 156.21 87.63)
+		(at 151.13 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a4973c9-0423-41c3-b091-dc55ef4e4dc8")
 	)
 	(junction
-		(at 156.21 100.33)
+		(at 151.13 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6afe2512-d3f8-4e28-88ef-7f833a1b51f8")
 	)
 	(junction
-		(at 106.68 67.31)
+		(at 101.6 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d65a5f3-46f9-4dbb-af52-fd11f4acf552")
 	)
 	(junction
-		(at 80.01 80.01)
+		(at 74.93 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75bd7d4d-4dd0-41fa-8af3-f8934c58162b")
 	)
 	(junction
-		(at 209.55 87.63)
+		(at 204.47 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c5c8129-0fb4-4364-b43a-5bfb552ffc79")
 	)
 	(junction
-		(at 80.01 105.41)
+		(at 74.93 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d2b19f2-da73-4970-baf9-579673d99fd3")
 	)
 	(junction
-		(at 182.88 113.03)
+		(at 177.8 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d309646-79ce-4ae1-bd14-8c2482885483")
 	)
 	(junction
-		(at 133.35 105.41)
+		(at 128.27 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7ffd9000-58d2-4c50-9185-a9b2d01fa149")
 	)
 	(junction
-		(at 160.02 80.01)
+		(at 154.94 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "885aa411-414e-4826-8b09-5d8447ba6ee6")
 	)
 	(junction
-		(at 133.35 67.31)
+		(at 128.27 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a68fea17-0b0f-4480-95ea-c0dfd36819f1")
 	)
 	(junction
-		(at 209.55 125.73)
+		(at 204.47 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6fd9f5a-6ad9-4d5c-8a6d-0031eb96245d")
 	)
 	(junction
-		(at 182.88 125.73)
+		(at 177.8 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7ea05fe-356a-4ade-ae93-22a7d97ce954")
 	)
 	(junction
-		(at 106.68 92.71)
+		(at 101.6 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abef60cc-c722-4112-b614-fb30ac705e65")
 	)
 	(junction
-		(at 102.87 100.33)
+		(at 97.79 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae00bfed-843f-4d96-a434-2b6fc3872005")
 	)
 	(junction
-		(at 209.55 113.03)
+		(at 204.47 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4a4ed54-c8b9-4e37-94fb-f343dfb9c367")
 	)
 	(junction
-		(at 129.54 113.03)
+		(at 124.46 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c27838fa-3114-4fb8-83e8-4811f51d99cb")
 	)
 	(junction
-		(at 133.35 92.71)
+		(at 128.27 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c36696c1-6107-4afa-b198-bcd573dbc5fe")
 	)
 	(junction
-		(at 80.01 118.11)
+		(at 74.93 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c544a370-9b69-477d-b5e8-67bf4e74a073")
 	)
 	(junction
-		(at 129.54 100.33)
+		(at 124.46 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c93a734b-06cb-4d89-babc-f9fe3e60bd7d")
 	)
 	(junction
-		(at 160.02 105.41)
+		(at 154.94 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c957d7e5-e7ed-445b-b7f2-6d53957d0457")
 	)
 	(junction
-		(at 160.02 118.11)
+		(at 154.94 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d22a9ae3-9fb6-45b4-9204-a9fb54a8d4ce")
 	)
 	(junction
-		(at 133.35 118.11)
+		(at 128.27 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5c9470a-0609-4044-b7cc-7d1cb89ad4ee")
 	)
 	(junction
-		(at 80.01 67.31)
+		(at 74.93 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e289d701-ab82-41ae-99cc-405a12485ae3")
 	)
 	(junction
-		(at 106.68 105.41)
+		(at 101.6 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e67511fe-b7e8-4cc3-8bcc-4b91c99719b9")
 	)
 	(junction
-		(at 129.54 87.63)
+		(at 124.46 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8e267cd-3934-41d2-b1ad-74455412a1b8")
 	)
 	(junction
-		(at 129.54 125.73)
+		(at 124.46 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8feba98-2831-4634-ac87-f81553a46a7c")
 	)
 	(junction
-		(at 102.87 113.03)
+		(at 97.79 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ec8e7fa8-4cb5-493c-8c2d-339362bcd6ef")
 	)
 	(junction
-		(at 182.88 100.33)
+		(at 177.8 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f16db639-8da7-4bd1-9292-bdaacf2162e4")
 	)
 	(junction
-		(at 209.55 100.33)
+		(at 204.47 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4475a32-9097-4b78-b46c-cf33752be6d8")
 	)
 	(junction
-		(at 80.01 92.71)
+		(at 74.93 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faef4134-52ed-4c6d-9499-4f659c1ceac3")
 	)
 	(wire
 		(pts
-			(xy 146.05 125.73) (xy 148.59 125.73)
+			(xy 140.97 128.27) (xy 143.51 128.27)
 		)
 		(stroke
 			(width 0)
@@ -579,7 +579,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 80.01 92.71)
+			(xy 101.6 95.25) (xy 74.93 95.25)
 		)
 		(stroke
 			(width 0)
@@ -589,7 +589,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 74.93) (xy 175.26 74.93)
+			(xy 167.64 77.47) (xy 170.18 77.47)
 		)
 		(stroke
 			(width 0)
@@ -599,7 +599,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 87.63) (xy 129.54 100.33)
+			(xy 124.46 90.17) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -609,7 +609,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 100.33) (xy 121.92 100.33)
+			(xy 114.3 102.87) (xy 116.84 102.87)
 		)
 		(stroke
 			(width 0)
@@ -619,7 +619,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 129.54 125.73)
+			(xy 124.46 115.57) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -629,7 +629,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 87.63) (xy 129.54 87.63)
+			(xy 121.92 90.17) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -639,7 +639,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 100.33) (xy 162.56 100.33)
+			(xy 154.94 102.87) (xy 157.48 102.87)
 		)
 		(stroke
 			(width 0)
@@ -649,7 +649,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 133.35 74.93)
+			(xy 128.27 69.85) (xy 128.27 77.47)
 		)
 		(stroke
 			(width 0)
@@ -659,7 +659,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 113.03)
+			(xy 177.8 102.87) (xy 177.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -669,7 +669,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 125.73) (xy 182.88 125.73)
+			(xy 175.26 128.27) (xy 177.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -679,7 +679,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 100.33) (xy 102.87 113.03)
+			(xy 97.79 102.87) (xy 97.79 115.57)
 		)
 		(stroke
 			(width 0)
@@ -689,7 +689,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 156.21 134.62)
+			(xy 151.13 128.27) (xy 151.13 137.16)
 		)
 		(stroke
 			(width 0)
@@ -699,7 +699,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 186.69 118.11)
+			(xy 154.94 120.65) (xy 181.61 120.65)
 		)
 		(stroke
 			(width 0)
@@ -709,7 +709,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 80.01 67.31)
+			(xy 101.6 69.85) (xy 74.93 69.85)
 		)
 		(stroke
 			(width 0)
@@ -719,7 +719,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 109.22 125.73)
+			(xy 101.6 128.27) (xy 104.14 128.27)
 		)
 		(stroke
 			(width 0)
@@ -729,7 +729,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 133.35 125.73)
+			(xy 128.27 120.65) (xy 128.27 128.27)
 		)
 		(stroke
 			(width 0)
@@ -739,7 +739,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 74.93) (xy 182.88 74.93)
+			(xy 175.26 77.47) (xy 177.8 77.47)
 		)
 		(stroke
 			(width 0)
@@ -749,7 +749,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 160.02 92.71)
+			(xy 128.27 95.25) (xy 154.94 95.25)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +759,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 74.93) (xy 156.21 87.63)
+			(xy 151.13 77.47) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 106.68 105.41)
+			(xy 101.6 115.57) (xy 101.6 107.95)
 		)
 		(stroke
 			(width 0)
@@ -779,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 80.01 87.63)
+			(xy 74.93 82.55) (xy 74.93 90.17)
 		)
 		(stroke
 			(width 0)
@@ -789,7 +789,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 113.03) (xy 182.88 125.73)
+			(xy 177.8 115.57) (xy 177.8 128.27)
 		)
 		(stroke
 			(width 0)
@@ -799,7 +799,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 80.01 113.03)
+			(xy 74.93 107.95) (xy 74.93 115.57)
 		)
 		(stroke
 			(width 0)
@@ -809,7 +809,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 73.66 105.41)
+			(xy 74.93 107.95) (xy 68.58 107.95)
 		)
 		(stroke
 			(width 0)
@@ -819,7 +819,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 74.93) (xy 102.87 74.93)
+			(xy 95.25 77.47) (xy 97.79 77.47)
 		)
 		(stroke
 			(width 0)
@@ -829,7 +829,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 125.73) (xy 162.56 125.73)
+			(xy 154.94 128.27) (xy 157.48 128.27)
 		)
 		(stroke
 			(width 0)
@@ -839,7 +839,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 113.03) (xy 175.26 113.03)
+			(xy 167.64 115.57) (xy 170.18 115.57)
 		)
 		(stroke
 			(width 0)
@@ -849,7 +849,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 113.03) (xy 102.87 125.73)
+			(xy 97.79 115.57) (xy 97.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -859,7 +859,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 87.63) (xy 182.88 87.63)
+			(xy 175.26 90.17) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -869,7 +869,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 125.73) (xy 189.23 125.73)
+			(xy 181.61 128.27) (xy 184.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -879,7 +879,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 186.69 67.31)
+			(xy 154.94 69.85) (xy 181.61 69.85)
 		)
 		(stroke
 			(width 0)
@@ -889,7 +889,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 113.03) (xy 109.22 113.03)
+			(xy 101.6 115.57) (xy 104.14 115.57)
 		)
 		(stroke
 			(width 0)
@@ -899,7 +899,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 67.31) (xy 160.02 67.31)
+			(xy 128.27 69.85) (xy 154.94 69.85)
 		)
 		(stroke
 			(width 0)
@@ -909,7 +909,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 156.21 113.03)
+			(xy 148.59 115.57) (xy 151.13 115.57)
 		)
 		(stroke
 			(width 0)
@@ -919,7 +919,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 113.03) (xy 209.55 125.73)
+			(xy 204.47 115.57) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -929,7 +929,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 74.93) (xy 129.54 87.63)
+			(xy 124.46 77.47) (xy 124.46 90.17)
 		)
 		(stroke
 			(width 0)
@@ -939,7 +939,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 87.63) (xy 209.55 87.63)
+			(xy 201.93 90.17) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -949,7 +949,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 113.03) (xy 209.55 113.03)
+			(xy 201.93 115.57) (xy 204.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -959,7 +959,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 74.93) (xy 82.55 74.93)
+			(xy 74.93 77.47) (xy 77.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -969,7 +969,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 74.93) (xy 189.23 74.93)
+			(xy 181.61 77.47) (xy 184.15 77.47)
 		)
 		(stroke
 			(width 0)
@@ -979,7 +979,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 87.63) (xy 102.87 87.63)
+			(xy 95.25 90.17) (xy 97.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -989,7 +989,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 106.68 80.01)
+			(xy 101.6 90.17) (xy 101.6 82.55)
 		)
 		(stroke
 			(width 0)
@@ -999,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 113.03) (xy 95.25 113.03)
+			(xy 87.63 115.57) (xy 90.17 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1009,7 +1009,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 74.93) (xy 156.21 74.93)
+			(xy 148.59 77.47) (xy 151.13 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1019,7 +1019,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 125.73) (xy 106.68 118.11)
+			(xy 101.6 128.27) (xy 101.6 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1029,7 +1029,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 186.69 105.41)
+			(xy 154.94 107.95) (xy 181.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1039,7 +1039,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 80.01) (xy 186.69 87.63)
+			(xy 181.61 82.55) (xy 181.61 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1049,7 +1049,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 125.73) (xy 129.54 125.73)
+			(xy 121.92 128.27) (xy 124.46 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1059,7 +1059,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 87.63) (xy 209.55 100.33)
+			(xy 204.47 90.17) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1069,7 +1069,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 100.33) (xy 129.54 113.03)
+			(xy 124.46 102.87) (xy 124.46 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1079,7 +1079,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 125.73) (xy 175.26 125.73)
+			(xy 167.64 128.27) (xy 170.18 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1089,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 118.11) (xy 186.69 125.73)
+			(xy 181.61 120.65) (xy 181.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1099,7 +1099,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 160.02 100.33)
+			(xy 154.94 95.25) (xy 154.94 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1109,7 +1109,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 113.03) (xy 82.55 113.03)
+			(xy 74.93 115.57) (xy 77.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1119,7 +1119,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 125.73) (xy 209.55 134.62)
+			(xy 204.47 128.27) (xy 204.47 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1129,7 +1129,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 113.03) (xy 121.92 113.03)
+			(xy 114.3 115.57) (xy 116.84 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1139,7 +1139,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 100.33) (xy 209.55 100.33)
+			(xy 201.93 102.87) (xy 204.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1149,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 129.54 113.03)
+			(xy 121.92 115.57) (xy 124.46 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1159,7 +1159,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 95.25 87.63)
+			(xy 87.63 90.17) (xy 90.17 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1169,7 +1169,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 92.71) (xy 186.69 100.33)
+			(xy 181.61 95.25) (xy 181.61 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1179,7 +1179,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 100.33) (xy 189.23 100.33)
+			(xy 181.61 102.87) (xy 184.15 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1189,7 +1189,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 156.21 100.33)
+			(xy 151.13 90.17) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1199,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 74.93) (xy 95.25 74.93)
+			(xy 87.63 77.47) (xy 90.17 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1209,7 +1209,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 162.56 113.03)
+			(xy 154.94 115.57) (xy 157.48 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1219,7 +1219,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 74.93) (xy 162.56 74.93)
+			(xy 154.94 77.47) (xy 157.48 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 125.73) (xy 182.88 134.62)
+			(xy 177.8 128.27) (xy 177.8 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1239,7 +1239,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 125.73) (xy 95.25 125.73)
+			(xy 87.63 128.27) (xy 90.17 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1249,7 +1249,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 113.03) (xy 135.89 113.03)
+			(xy 128.27 115.57) (xy 130.81 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1259,7 +1259,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 118.11) (xy 160.02 118.11)
+			(xy 128.27 120.65) (xy 154.94 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1269,7 +1269,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 92.71) (xy 133.35 100.33)
+			(xy 128.27 95.25) (xy 128.27 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1279,7 +1279,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 67.31) (xy 133.35 67.31)
+			(xy 101.6 69.85) (xy 128.27 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1289,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 100.33) (xy 182.88 100.33)
+			(xy 175.26 102.87) (xy 177.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1299,7 +1299,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 100.33) (xy 109.22 100.33)
+			(xy 101.6 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1309,7 +1309,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 80.01) (xy 133.35 87.63)
+			(xy 128.27 82.55) (xy 128.27 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1319,7 +1319,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 125.73) (xy 135.89 125.73)
+			(xy 128.27 128.27) (xy 130.81 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1329,7 +1329,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 113.03) (xy 201.93 113.03)
+			(xy 194.31 115.57) (xy 196.85 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1339,7 +1339,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 160.02 105.41)
+			(xy 128.27 107.95) (xy 154.94 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1349,7 +1349,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 100.33) (xy 129.54 100.33)
+			(xy 121.92 102.87) (xy 124.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1359,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 133.35 118.11)
+			(xy 101.6 120.65) (xy 128.27 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1369,7 +1369,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 113.03) (xy 189.23 113.03)
+			(xy 181.61 115.57) (xy 184.15 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1379,7 +1379,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 100.33) (xy 148.59 100.33)
+			(xy 140.97 102.87) (xy 143.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1389,7 +1389,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 133.35 80.01)
+			(xy 101.6 82.55) (xy 128.27 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1399,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 186.69 92.71)
+			(xy 154.94 95.25) (xy 181.61 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1409,7 +1409,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 80.01) (xy 160.02 80.01)
+			(xy 128.27 82.55) (xy 154.94 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1419,7 +1419,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 80.01 100.33)
+			(xy 74.93 95.25) (xy 74.93 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1429,7 +1429,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 100.33) (xy 209.55 113.03)
+			(xy 204.47 102.87) (xy 204.47 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1439,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 74.93) (xy 106.68 67.31)
+			(xy 101.6 77.47) (xy 101.6 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1449,7 +1449,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 125.73) (xy 82.55 125.73)
+			(xy 74.93 128.27) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1459,7 +1459,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 125.73) (xy 156.21 125.73)
+			(xy 148.59 128.27) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1469,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 186.69 80.01)
+			(xy 154.94 82.55) (xy 181.61 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1479,7 +1479,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 74.93) (xy 148.59 74.93)
+			(xy 140.97 77.47) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1489,7 +1489,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 74.93) (xy 109.22 74.93)
+			(xy 101.6 77.47) (xy 104.14 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1499,7 +1499,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 74.93) (xy 129.54 74.93)
+			(xy 121.92 77.47) (xy 124.46 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1509,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 125.73) (xy 201.93 125.73)
+			(xy 194.31 128.27) (xy 196.85 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1519,7 +1519,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 175.26 100.33)
+			(xy 167.64 102.87) (xy 170.18 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1529,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 100.33) (xy 106.68 92.71)
+			(xy 101.6 102.87) (xy 101.6 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1539,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 109.22 87.63)
+			(xy 101.6 90.17) (xy 104.14 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1549,7 +1549,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 125.73) (xy 102.87 125.73)
+			(xy 95.25 128.27) (xy 97.79 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1559,7 +1559,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 100.33) (xy 156.21 100.33)
+			(xy 148.59 102.87) (xy 151.13 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1569,7 +1569,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 125.73) (xy 102.87 134.62)
+			(xy 97.79 128.27) (xy 97.79 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1579,7 +1579,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 67.31) (xy 186.69 74.93)
+			(xy 181.61 69.85) (xy 181.61 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1589,7 +1589,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 87.63) (xy 189.23 87.63)
+			(xy 181.61 90.17) (xy 184.15 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1599,7 +1599,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 87.63) (xy 121.92 87.63)
+			(xy 114.3 90.17) (xy 116.84 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1609,7 +1609,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 80.01 105.41)
+			(xy 101.6 107.95) (xy 74.93 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1619,7 +1619,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 118.11) (xy 160.02 125.73)
+			(xy 154.94 120.65) (xy 154.94 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1629,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 118.11) (xy 73.66 118.11)
+			(xy 74.93 120.65) (xy 68.58 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1639,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 80.01) (xy 73.66 80.01)
+			(xy 74.93 82.55) (xy 68.58 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 105.41) (xy 160.02 113.03)
+			(xy 154.94 107.95) (xy 154.94 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 105.41) (xy 133.35 113.03)
+			(xy 128.27 107.95) (xy 128.27 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1669,7 +1669,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 87.63) (xy 156.21 87.63)
+			(xy 148.59 90.17) (xy 151.13 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1679,7 +1679,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 125.73) (xy 129.54 134.62)
+			(xy 124.46 128.27) (xy 124.46 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1689,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 87.63) (xy 201.93 87.63)
+			(xy 194.31 90.17) (xy 196.85 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 118.11) (xy 80.01 125.73)
+			(xy 74.93 120.65) (xy 74.93 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1709,7 +1709,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 92.71) (xy 73.66 92.71)
+			(xy 74.93 95.25) (xy 68.58 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1719,7 +1719,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 133.35 92.71)
+			(xy 101.6 95.25) (xy 128.27 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1729,7 +1729,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 87.63) (xy 135.89 87.63)
+			(xy 128.27 90.17) (xy 130.81 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1739,7 +1739,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 100.33)
+			(xy 177.8 90.17) (xy 177.8 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1749,7 +1749,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 105.41) (xy 133.35 105.41)
+			(xy 101.6 107.95) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1759,7 +1759,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 113.03) (xy 102.87 113.03)
+			(xy 95.25 115.57) (xy 97.79 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1769,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 80.01) (xy 80.01 80.01)
+			(xy 101.6 82.55) (xy 74.93 82.55)
 		)
 		(stroke
 			(width 0)
@@ -1779,7 +1779,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 74.93) (xy 201.93 74.93)
+			(xy 194.31 77.47) (xy 196.85 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1789,7 +1789,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 74.93) (xy 209.55 87.63)
+			(xy 204.47 77.47) (xy 204.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1799,7 +1799,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 87.63) (xy 148.59 87.63)
+			(xy 140.97 90.17) (xy 143.51 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1809,7 +1809,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 100.33) (xy 135.89 100.33)
+			(xy 128.27 102.87) (xy 130.81 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 87.63) (xy 102.87 100.33)
+			(xy 97.79 90.17) (xy 97.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1829,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 113.03) (xy 156.21 125.73)
+			(xy 151.13 115.57) (xy 151.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1839,7 +1839,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 125.73) (xy 209.55 125.73)
+			(xy 201.93 128.27) (xy 204.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1849,7 +1849,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 74.93) (xy 182.88 87.63)
+			(xy 177.8 77.47) (xy 177.8 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1859,7 +1859,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 74.93) (xy 209.55 74.93)
+			(xy 201.93 77.47) (xy 204.47 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1869,7 +1869,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 67.31) (xy 160.02 74.93)
+			(xy 154.94 69.85) (xy 154.94 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1879,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 100.33) (xy 102.87 100.33)
+			(xy 95.25 102.87) (xy 97.79 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1889,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 80.01 74.93)
+			(xy 74.93 69.85) (xy 74.93 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1899,7 +1899,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 87.63) (xy 175.26 87.63)
+			(xy 167.64 90.17) (xy 170.18 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1909,7 +1909,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 74.93) (xy 102.87 87.63)
+			(xy 97.79 77.47) (xy 97.79 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1919,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 74.93) (xy 121.92 74.93)
+			(xy 114.3 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 100.33) (xy 201.93 100.33)
+			(xy 194.31 102.87) (xy 196.85 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1939,7 +1939,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 80.01) (xy 160.02 87.63)
+			(xy 154.94 82.55) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1949,7 +1949,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 100.33) (xy 156.21 113.03)
+			(xy 151.13 102.87) (xy 151.13 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1959,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 67.31) (xy 73.66 67.31)
+			(xy 74.93 69.85) (xy 68.58 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1969,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 87.63) (xy 162.56 87.63)
+			(xy 154.94 90.17) (xy 157.48 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 100.33) (xy 82.55 100.33)
+			(xy 74.93 102.87) (xy 77.47 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 105.41) (xy 186.69 113.03)
+			(xy 181.61 107.95) (xy 181.61 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1999,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 125.73) (xy 121.92 125.73)
+			(xy 114.3 128.27) (xy 116.84 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2009,7 +2009,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 118.11) (xy 80.01 118.11)
+			(xy 101.6 120.65) (xy 74.93 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2019,7 +2019,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 100.33) (xy 95.25 100.33)
+			(xy 87.63 102.87) (xy 90.17 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2029,7 +2029,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 113.03) (xy 148.59 113.03)
+			(xy 140.97 115.57) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2039,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 182.88 113.03)
+			(xy 175.26 115.57) (xy 177.8 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2049,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 74.93) (xy 135.89 74.93)
+			(xy 128.27 77.47) (xy 130.81 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2059,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 87.63) (xy 82.55 87.63)
+			(xy 74.93 90.17) (xy 77.47 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2069,7 @@
 	)
 	(hierarchical_label "C1"
 		(shape input)
-		(at 102.87 134.62 270)
+		(at 97.79 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2080,7 +2080,7 @@
 	)
 	(hierarchical_label "C5"
 		(shape input)
-		(at 209.55 134.62 270)
+		(at 204.47 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2091,7 +2091,7 @@
 	)
 	(hierarchical_label "C3"
 		(shape input)
-		(at 156.21 134.62 270)
+		(at 151.13 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2102,7 +2102,7 @@
 	)
 	(hierarchical_label "R1"
 		(shape input)
-		(at 73.66 67.31 180)
+		(at 68.58 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2113,7 @@
 	)
 	(hierarchical_label "R3"
 		(shape input)
-		(at 73.66 92.71 180)
+		(at 68.58 95.25 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2124,7 +2124,7 @@
 	)
 	(hierarchical_label "C2"
 		(shape input)
-		(at 129.54 134.62 270)
+		(at 124.46 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2135,7 +2135,7 @@
 	)
 	(hierarchical_label "C4"
 		(shape input)
-		(at 182.88 134.62 270)
+		(at 177.8 137.16 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2146,7 +2146,7 @@
 	)
 	(hierarchical_label "R2"
 		(shape input)
-		(at 73.66 80.01 180)
+		(at 68.58 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2157,7 +2157,7 @@
 	)
 	(hierarchical_label "R4"
 		(shape input)
-		(at 73.66 105.41 180)
+		(at 68.58 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2168,7 +2168,7 @@
 	)
 	(hierarchical_label "R5"
 		(shape input)
-		(at 73.66 118.11 180)
+		(at 68.58 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2179,7 +2179,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 87.63 74.93 0)
+		(at 82.55 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2187,7 +2187,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c5d3fa")
 		(property "Reference" "SW1"
-			(at 87.63 71.12 0)
+			(at 82.55 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +2195,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 85.09 69.85 90)
+			(at 80.01 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +2204,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 87.63 74.93 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +2213,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 74.93 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2222,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 74.93 0)
+			(at 82.55 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2246,7 +2246,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 97.79 74.93 180)
+		(at 92.71 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2254,15 +2254,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c5d400")
 		(property "Reference" "D1"
-			(at 97.79 71.12 0)
+			(at 92.71 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 95.25 69.85 90)
+		(property "Value" "1N4148"
+			(at 90.17 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2271,7 +2271,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 97.79 74.93 90)
+			(at 92.71 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 74.93 90)
+			(at 92.71 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2289,7 +2289,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 74.93 0)
+			(at 92.71 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2313,7 +2313,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 114.3 74.93 0)
+		(at 109.22 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2321,7 +2321,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c6b76d")
 		(property "Reference" "SW6"
-			(at 114.3 71.12 0)
+			(at 109.22 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2329,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 111.76 69.85 90)
+			(at 106.68 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2338,7 +2338,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 114.3 74.93 0)
+			(at 109.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2347,7 +2347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 74.93 0)
+			(at 109.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2356,7 +2356,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 74.93 0)
+			(at 109.22 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,75 +2379,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 124.46 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c6b773")
-		(property "Reference" "D6"
-			(at 124.46 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 124.46 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f6cad373-ea71-4399-a9f4-ae266d26a640")
-		)
-		(pin "2"
-			(uuid "c647b2dc-a8b5-4072-8920-3446f7ed5d0e")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 140.97 74.93 0)
+		(at 135.89 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2455,7 +2388,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c79ba0")
 		(property "Reference" "SW11"
-			(at 140.97 71.12 0)
+			(at 135.89 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2463,7 +2396,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 138.43 69.85 90)
+			(at 133.35 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2472,7 +2405,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 140.97 74.93 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 74.93 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +2423,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 74.93 0)
+			(at 135.89 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2513,75 +2446,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c79ba6")
-		(property "Reference" "D11"
-			(at 151.13 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 151.13 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "749ea43a-7e7e-4f07-86ae-bab216f6c029")
-		)
-		(pin "2"
-			(uuid "48779a4d-c9ce-48f9-a66a-7451fffb5c9e")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 167.64 74.93 0)
+		(at 162.56 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2589,7 +2455,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c832a8")
 		(property "Reference" "SW16"
-			(at 167.64 71.12 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +2463,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 165.1 69.85 90)
+			(at 160.02 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2472,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 167.64 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +2481,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2624,7 +2490,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 74.93 0)
+			(at 162.56 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,75 +2513,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 177.8 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c832ae")
-		(property "Reference" "D16"
-			(at 177.8 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 175.26 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d354a886-726b-4f4b-96a0-cb6e3277de5b")
-		)
-		(pin "2"
-			(uuid "ad55fecd-3a3a-46c1-87fb-fcf9c44f88ed")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 194.31 74.93 0)
+		(at 189.23 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2723,7 +2522,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061c8e983")
 		(property "Reference" "SW21"
-			(at 194.31 71.12 0)
+			(at 189.23 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2731,7 +2530,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 191.77 69.85 90)
+			(at 186.69 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2740,7 +2539,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 194.31 74.93 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2749,7 +2548,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 74.93 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2758,7 +2557,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 74.93 0)
+			(at 189.23 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2781,75 +2580,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 204.47 74.93 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061c8e989")
-		(property "Reference" "D21"
-			(at 204.47 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 204.47 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4798eafe-3c3d-4d3d-9f55-0ccbffba30d5")
-		)
-		(pin "2"
-			(uuid "13992cbe-46c4-4876-906f-c978ce361d1f")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 87.63 87.63 0)
+		(at 82.55 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2857,7 +2589,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dcf9ae")
 		(property "Reference" "SW2"
-			(at 87.63 83.82 0)
+			(at 82.55 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +2597,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 85.09 82.55 90)
+			(at 80.01 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2874,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 87.63 87.63 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 87.63 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +2624,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 87.63 0)
+			(at 82.55 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,142 +2647,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 97.79 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dcf9b4")
-		(property "Reference" "D2"
-			(at 97.79 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 95.25 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 97.79 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2271f8f9-2f64-4f77-b9df-68661a609a45")
-		)
-		(pin "2"
-			(uuid "132eed16-c522-47ee-b936-2e267e04b4ea")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 124.46 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dcf9bd")
-		(property "Reference" "D7"
-			(at 124.46 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 124.46 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c3e8cee7-d446-46d8-b9a7-702cf08b2e4e")
-		)
-		(pin "2"
-			(uuid "a676e5d8-8a33-4af4-8e49-5c57f8fbac29")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 140.97 87.63 0)
+		(at 135.89 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3058,7 +2656,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dcf9c6")
 		(property "Reference" "SW12"
-			(at 140.97 83.82 0)
+			(at 135.89 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3066,7 +2664,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 138.43 82.55 90)
+			(at 133.35 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3075,7 +2673,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 140.97 87.63 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +2682,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 87.63 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3093,7 +2691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 87.63 0)
+			(at 135.89 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3116,75 +2714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dcf9cc")
-		(property "Reference" "D12"
-			(at 151.13 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 151.13 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a2fe6375-06cd-4fe1-8d5c-b28cf88905db")
-		)
-		(pin "2"
-			(uuid "5af31372-a65c-4dc8-ae97-637409603b76")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 167.64 87.63 0)
+		(at 162.56 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,7 +2723,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dcf9d5")
 		(property "Reference" "SW17"
-			(at 167.64 83.82 0)
+			(at 162.56 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +2731,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 165.1 82.55 90)
+			(at 160.02 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +2740,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 167.64 87.63 0)
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +2749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 87.63 0)
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +2758,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 87.63 0)
+			(at 162.56 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3250,75 +2781,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 177.8 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dcf9db")
-		(property "Reference" "D17"
-			(at 177.8 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 175.26 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0af7aa23-4c56-4628-a1dc-3ad3ab0c357e")
-		)
-		(pin "2"
-			(uuid "cd7f1b5f-2907-44eb-aebe-a4889cd8fef0")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 194.31 87.63 0)
+		(at 189.23 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3326,7 +2790,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dcf9e4")
 		(property "Reference" "SW22"
-			(at 194.31 83.82 0)
+			(at 189.23 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +2798,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 191.77 82.55 90)
+			(at 186.69 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3343,7 +2807,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 194.31 87.63 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3352,7 +2816,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 87.63 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +2825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 87.63 0)
+			(at 189.23 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3384,75 +2848,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 204.47 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dcf9ea")
-		(property "Reference" "D22"
-			(at 204.47 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 204.47 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b83bd0f2-873e-4084-839c-2aaa8c915116")
-		)
-		(pin "2"
-			(uuid "5ed53cf8-9421-4df9-b602-5736e6f42b50")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 114.3 87.63 0)
+		(at 109.22 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3460,7 +2857,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dcf9f1")
 		(property "Reference" "SW7"
-			(at 114.3 83.82 0)
+			(at 109.22 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3468,7 +2865,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 111.76 82.55 90)
+			(at 106.68 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3477,7 +2874,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 114.3 87.63 0)
+			(at 109.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3486,7 +2883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 87.63 0)
+			(at 109.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3495,7 +2892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 87.63 0)
+			(at 109.22 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +2916,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 87.63 100.33 0)
+		(at 82.55 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3527,7 +2924,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdb85")
 		(property "Reference" "SW3"
-			(at 87.63 96.52 0)
+			(at 82.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,7 +2932,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 85.09 95.25 90)
+			(at 80.01 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 87.63 100.33 0)
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3553,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 100.33 0)
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3562,7 +2959,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 100.33 0)
+			(at 82.55 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3585,142 +2982,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 97.79 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdb8b")
-		(property "Reference" "D3"
-			(at 97.79 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 95.25 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 97.79 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b268d15-6572-4870-8cca-b7c827d65478")
-		)
-		(pin "2"
-			(uuid "64d7f1df-eb62-414e-a3d1-ad461f6098b7")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 124.46 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdb94")
-		(property "Reference" "D8"
-			(at 124.46 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 124.46 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bd0c1ee-08cc-4fa1-b0bf-acdb15841606")
-		)
-		(pin "2"
-			(uuid "34f32dbe-ec53-492b-9ed9-f50e6548c918")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 140.97 100.33 0)
+		(at 135.89 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3728,7 +2991,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdb9d")
 		(property "Reference" "SW13"
-			(at 140.97 96.52 0)
+			(at 135.89 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3736,7 +2999,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 138.43 95.25 90)
+			(at 133.35 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3745,7 +3008,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 140.97 100.33 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3754,7 +3017,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 100.33 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3763,7 +3026,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 100.33 0)
+			(at 135.89 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3786,75 +3049,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdba3")
-		(property "Reference" "D13"
-			(at 151.13 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 151.13 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "036592f7-5846-4cf9-b4a2-3a3752af72d2")
-		)
-		(pin "2"
-			(uuid "f27c5975-80e1-4569-9460-3784846f5595")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 167.64 100.33 0)
+		(at 162.56 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3862,7 +3058,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbac")
 		(property "Reference" "SW18"
-			(at 167.64 96.52 0)
+			(at 162.56 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3870,7 +3066,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 165.1 95.25 90)
+			(at 160.02 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3075,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 167.64 100.33 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,7 +3084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 100.33 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3897,7 +3093,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 100.33 0)
+			(at 162.56 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3920,75 +3116,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 177.8 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbb2")
-		(property "Reference" "D18"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 175.26 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8bccbd36-2150-4cf6-9018-1fac8e573117")
-		)
-		(pin "2"
-			(uuid "8435ec43-cfaf-450e-9c53-8cefb90a24b2")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 194.31 100.33 0)
+		(at 189.23 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3996,7 +3125,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbbb")
 		(property "Reference" "SW23"
-			(at 194.31 96.52 0)
+			(at 189.23 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4004,7 +3133,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 191.77 95.25 90)
+			(at 186.69 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4013,7 +3142,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 194.31 100.33 0)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4022,7 +3151,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 100.33 0)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4031,7 +3160,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 100.33 0)
+			(at 189.23 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4054,75 +3183,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 204.47 100.33 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbc1")
-		(property "Reference" "D23"
-			(at 204.47 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 204.47 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80d446ae-42d8-444b-8b14-ae75dabb347b")
-		)
-		(pin "2"
-			(uuid "c736daaa-1fd7-4436-9572-5653de6328e7")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 114.3 100.33 0)
+		(at 109.22 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4130,7 +3192,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbc7")
 		(property "Reference" "SW8"
-			(at 114.3 96.52 0)
+			(at 109.22 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +3200,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 111.76 95.25 90)
+			(at 106.68 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +3209,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 114.3 100.33 0)
+			(at 109.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +3218,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 100.33 0)
+			(at 109.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +3227,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 100.33 0)
+			(at 109.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 87.63 113.03 0)
+		(at 82.55 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4197,7 +3259,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbce")
 		(property "Reference" "SW4"
-			(at 87.63 109.22 0)
+			(at 82.55 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,7 +3267,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 85.09 107.95 90)
+			(at 80.01 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +3276,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 87.63 113.03 0)
+			(at 82.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4223,7 +3285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 113.03 0)
+			(at 82.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +3294,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 113.03 0)
+			(at 82.55 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4255,142 +3317,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 97.79 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbd4")
-		(property "Reference" "D4"
-			(at 97.79 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 95.25 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 97.79 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "96749ddd-b33a-4ee3-8e8c-f3540da89a6b")
-		)
-		(pin "2"
-			(uuid "baf5a735-1a64-45c0-83a9-a8fbf4801420")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 124.46 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbdd")
-		(property "Reference" "D9"
-			(at 124.46 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 124.46 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4a08a54d-9467-4ef2-a1b8-a00e137c9311")
-		)
-		(pin "2"
-			(uuid "375d2241-2727-41a2-b2ae-e7a2f896177b")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 140.97 113.03 0)
+		(at 135.89 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4398,7 +3326,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbe6")
 		(property "Reference" "SW14"
-			(at 140.97 109.22 0)
+			(at 135.89 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +3334,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 138.43 107.95 90)
+			(at 133.35 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4415,7 +3343,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 140.97 113.03 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4424,7 +3352,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 113.03 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4433,7 +3361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 113.03 0)
+			(at 135.89 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4456,75 +3384,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbec")
-		(property "Reference" "D14"
-			(at 151.13 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 151.13 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97dd2f34-1862-4f35-913e-e493c6a42577")
-		)
-		(pin "2"
-			(uuid "c2c54db5-2c67-46c7-806d-0c7caedb59d7")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 167.64 113.03 0)
+		(at 162.56 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4532,7 +3393,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdbf5")
 		(property "Reference" "SW19"
-			(at 167.64 109.22 0)
+			(at 162.56 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4540,7 +3401,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 165.1 107.95 90)
+			(at 160.02 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4549,7 +3410,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 167.64 113.03 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4558,7 +3419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 113.03 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4567,7 +3428,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 113.03 0)
+			(at 162.56 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4590,75 +3451,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 177.8 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdbfb")
-		(property "Reference" "D19"
-			(at 177.8 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 175.26 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9644af15-00bd-490a-ab48-72066c3d9a77")
-		)
-		(pin "2"
-			(uuid "debce5aa-1e15-4408-806d-0e968e9b6d89")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 194.31 113.03 0)
+		(at 189.23 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4666,7 +3460,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdc04")
 		(property "Reference" "SW24"
-			(at 194.31 109.22 0)
+			(at 189.23 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +3468,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 191.77 107.95 90)
+			(at 186.69 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +3477,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 194.31 113.03 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +3486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 113.03 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +3495,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 113.03 0)
+			(at 189.23 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,75 +3518,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 204.47 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061dfdc0a")
-		(property "Reference" "D24"
-			(at 204.47 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 204.47 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f50636e7-efb0-4567-8f2d-388463fcf743")
-		)
-		(pin "2"
-			(uuid "b94bef80-52ec-4050-9120-e85a10e90994")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 114.3 113.03 0)
+		(at 109.22 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4800,7 +3527,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061dfdc10")
 		(property "Reference" "SW9"
-			(at 114.3 109.22 0)
+			(at 109.22 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4808,7 +3535,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 111.76 107.95 90)
+			(at 106.68 110.49 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4817,7 +3544,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 114.3 113.03 0)
+			(at 109.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4826,7 +3553,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 113.03 0)
+			(at 109.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4835,7 +3562,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 113.03 0)
+			(at 109.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +3586,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 87.63 125.73 0)
+		(at 82.55 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4867,7 +3594,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e1948f")
 		(property "Reference" "SW5"
-			(at 87.63 121.92 0)
+			(at 82.55 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4875,7 +3602,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 85.09 120.65 90)
+			(at 80.01 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4884,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 87.63 125.73 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4893,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 87.63 125.73 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4902,7 +3629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 125.73 0)
+			(at 82.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,142 +3652,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 97.79 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e19495")
-		(property "Reference" "D5"
-			(at 97.79 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 95.25 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 97.79 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a8b74f37-5109-4851-8130-6318e3b881d0")
-		)
-		(pin "2"
-			(uuid "495de5ad-6b2d-4fa4-8609-8acc3cc5f5e4")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 124.46 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e1949e")
-		(property "Reference" "D10"
-			(at 124.46 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 121.92 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 124.46 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "41988800-6fe0-4cbe-9c3d-c4e1078ecf6a")
-		)
-		(pin "2"
-			(uuid "35a575e5-7e0b-4624-9431-b15d63de581e")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 140.97 125.73 0)
+		(at 135.89 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5068,7 +3661,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e194a7")
 		(property "Reference" "SW15"
-			(at 140.97 121.92 0)
+			(at 135.89 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5076,7 +3669,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 138.43 120.65 90)
+			(at 133.35 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5085,7 +3678,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 140.97 125.73 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5094,7 +3687,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 125.73 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5103,7 +3696,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 140.97 125.73 0)
+			(at 135.89 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5126,75 +3719,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e194ad")
-		(property "Reference" "D15"
-			(at 151.13 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 151.13 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d4089237-062a-4f29-a978-94fef8086b21")
-		)
-		(pin "2"
-			(uuid "dbfa98da-4d57-49de-b9ec-a1e09157f4de")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 167.64 125.73 0)
+		(at 162.56 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5202,7 +3728,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e194b6")
 		(property "Reference" "SW20"
-			(at 167.64 121.92 0)
+			(at 162.56 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +3736,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 165.1 120.65 90)
+			(at 160.02 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +3745,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 167.64 125.73 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +3754,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 125.73 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +3763,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 125.73 0)
+			(at 162.56 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5260,75 +3786,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 177.8 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e194bc")
-		(property "Reference" "D20"
-			(at 177.8 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 175.26 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 177.8 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f51901ba-d016-41b1-87a8-134ea7e007c8")
-		)
-		(pin "2"
-			(uuid "e0225d7f-8570-4d60-abc3-44d980d1e42f")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 194.31 125.73 0)
+		(at 189.23 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5336,7 +3795,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e194c5")
 		(property "Reference" "SW25"
-			(at 194.31 121.92 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +3803,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 191.77 120.65 90)
+			(at 186.69 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5353,7 +3812,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 194.31 125.73 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5362,7 +3821,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 125.73 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5371,7 +3830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 125.73 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5394,75 +3853,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 204.47 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061e194cb")
-		(property "Reference" "D25"
-			(at 204.47 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 201.93 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 204.47 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 204.47 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 204.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ba335760-ecfa-408d-9aa6-aeeaddbba1a7")
-		)
-		(pin "2"
-			(uuid "e020265e-6894-44b6-9a3e-e31e9c5c4bf3")
-		)
-		(instances
-			(project ""
-				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
-					(reference "D25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 114.3 125.73 0)
+		(at 109.22 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5470,7 +3862,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000061e194d1")
 		(property "Reference" "SW10"
-			(at 114.3 121.92 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5478,7 +3870,7 @@
 			)
 		)
 		(property "Value" "SPST"
-			(at 111.76 120.65 90)
+			(at 106.68 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5487,7 +3879,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
-			(at 114.3 125.73 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5496,7 +3888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 125.73 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5505,7 +3897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 125.73 0)
+			(at 109.22 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,6 +3914,1279 @@
 			(project ""
 				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
 					(reference "SW10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 92.71 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "25b85357-183a-4507-85c0-1903ff528ad2")
+		(property "Reference" "D5"
+			(at 92.71 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "477dd7ea-65da-4539-b051-f958ef796d35")
+		)
+		(pin "2"
+			(uuid "58ce6f07-e21b-4469-8fec-ddd78b6c975a")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 92.71 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "553ab475-354c-4c4f-9296-df7491170a3d")
+		(property "Reference" "D2"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 92.71 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ee9d952-6ac0-46ea-8631-7c9e35443f97")
+		)
+		(pin "2"
+			(uuid "4789272c-9e7f-49e8-87c3-aea62e78dc37")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 146.05 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5818ac02-ce85-4396-9f5c-3c52c8d9de01")
+		(property "Reference" "D11"
+			(at 146.05 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 143.51 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b953ecf-7ccf-46a9-83a3-9d8ce8abe735")
+		)
+		(pin "2"
+			(uuid "9fee1ab0-3b10-4af0-bdda-8bdd8a85ce90")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "69c956bd-03ed-4bf7-9aed-5042f9b27588")
+		(property "Reference" "D7"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.84 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 119.38 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0be894a1-c1b1-4d04-bd6a-789ca8842c60")
+		)
+		(pin "2"
+			(uuid "cd2fdc8b-3ca4-4957-9d5b-5357c5528831")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e0fbd1a-e29f-4e0a-a515-4312d457f841")
+		(property "Reference" "D9"
+			(at 119.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.84 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 119.38 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea87fed-2097-48d5-806f-43622bfa4b1c")
+		)
+		(pin "2"
+			(uuid "494f1026-80f7-42d0-9126-c4c299eefdeb")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "73b9d2c4-5b60-470b-90d6-04bf7a7a0cf0")
+		(property "Reference" "D19"
+			(at 172.72 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 170.18 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c6a048b-414a-48b6-a38d-9fc68089a718")
+		)
+		(pin "2"
+			(uuid "eefef494-75da-4bc3-be50-10e08d2f63f6")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d00d194-afe3-4b8b-9374-2dbfc1dc2dd1")
+		(property "Reference" "D18"
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 170.18 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "691f87a6-d41f-48ed-998c-4be41923445e")
+		)
+		(pin "2"
+			(uuid "c519d1eb-48dd-4a15-8b39-bdd6e4c1cae6")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "93f81eac-c23c-4d6b-abc9-5c8ec6a6b3f6")
+		(property "Reference" "D10"
+			(at 119.38 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.84 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 119.38 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e3e9948-bc15-4acf-b37e-89568e3bf1b2")
+		)
+		(pin "2"
+			(uuid "d5b2d5c5-e8b8-47d0-9e49-d1877ea79dac")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a5dbb0ce-997e-40f0-9be2-98c682a92cc1")
+		(property "Reference" "D20"
+			(at 172.72 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 170.18 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9767d852-dbff-4246-ab40-45555c48cca2")
+		)
+		(pin "2"
+			(uuid "765d2f95-f775-4f3d-b586-d5d552669b6f")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 146.05 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9f57614-8f5b-4aa6-9b4a-ad45db77a33b")
+		(property "Reference" "D12"
+			(at 146.05 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 143.51 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f555009f-d56b-4493-af07-321c6394ad9b")
+		)
+		(pin "2"
+			(uuid "fb8ce47b-9a7f-4073-812e-f337ee0aa4b0")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f0b88e-e14b-4638-988c-a69b5cc576c3")
+		(property "Reference" "D8"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.84 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 119.38 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4ab9a3eb-f748-4977-a25d-b45fe6b20982")
+		)
+		(pin "2"
+			(uuid "7e0bbeb3-cf19-4b49-ac37-868e0baca6d3")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 146.05 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c856fd87-7a4c-41e6-9287-6848bc95b600")
+		(property "Reference" "D13"
+			(at 146.05 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 143.51 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "22820655-27ab-4960-b3c4-de5f2552ba83")
+		)
+		(pin "2"
+			(uuid "de052dbc-5fc1-48f7-95a5-3192f8deb221")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 146.05 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8ee32f8-d081-4314-ab12-f0066271d4b0")
+		(property "Reference" "D14"
+			(at 146.05 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 143.51 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63b4e09c-6f4d-4f64-a6b2-11f0399c544c")
+		)
+		(pin "2"
+			(uuid "f3416818-9a37-4ac2-af71-db794ab72311")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 119.38 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccd9de26-2e56-4022-bcb4-5814d312a67b")
+		(property "Reference" "D6"
+			(at 119.38 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 116.84 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 119.38 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b5b316f6-bc0e-481c-b004-cb284e2ab52b")
+		)
+		(pin "2"
+			(uuid "17897c17-5260-41a2-a7b6-56cccc3d671b")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 92.71 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce97f119-6cf3-4a9e-82cf-829f4742f3e1")
+		(property "Reference" "D4"
+			(at 92.71 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 92.71 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62756e0c-fcf5-4a4c-8fb1-7c1d9e66791c")
+		)
+		(pin "2"
+			(uuid "89fe8e7c-56ac-4e5b-a861-a391703dc397")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2e1fcd9-375c-4daa-b353-d0b7e8a3df63")
+		(property "Reference" "D16"
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 170.18 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d83a3f4-5b93-4310-85b7-f3745f738895")
+		)
+		(pin "2"
+			(uuid "1f926349-6b2f-431f-bf8a-6b818193c3ee")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 146.05 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3683e0d-cfbe-4d0d-8c34-0f37fd34b127")
+		(property "Reference" "D15"
+			(at 146.05 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 143.51 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 146.05 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5b4cf5cc-7ca4-47bc-b682-aab34536abbd")
+		)
+		(pin "2"
+			(uuid "a42a15b0-187e-4389-b898-d25b22d03352")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 172.72 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4146a01-7686-44f3-835d-5d9de6762c5b")
+		(property "Reference" "D17"
+			(at 172.72 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 170.18 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 172.72 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "871f8675-dbf5-45e0-a089-46cbba1e7c35")
+		)
+		(pin "2"
+			(uuid "da9c00a7-c105-4ed9-8e24-8494e6016bc6")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 92.71 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7550afe-c6d2-4168-9390-d7a493979297")
+		(property "Reference" "D3"
+			(at 92.71 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 90.17 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 92.71 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 92.71 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "848741c4-e2c6-489b-90fa-7cb8079967a4")
+		)
+		(pin "2"
+			(uuid "213d6dd0-6fa1-4e5c-9683-8b0d66e717da")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D3")
 					(unit 1)
 				)
 			)
