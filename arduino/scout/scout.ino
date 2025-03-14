@@ -2,10 +2,6 @@
 #include "KeyBuffer.h"
 #include "Notes.h"
 
-// PCB NOTES:
-// * Response on analog pot inputs is because they're log? Should be linear.
-// * Power switch is reversed. Typical!
-
 // SETTINGS
 int octave = 3;
 float glide = .25;
@@ -15,26 +11,33 @@ bool printToSerial = false;
 const int CYCLES_PER_GLIDE_MAX = printToSerial ? 25 : 250;
 const int STARTING_NOTE_DISTANCE_FROM_MIDDLE_A = -9;
 
-const int SPEAKER_PIN = 9; // or 10,11,12
-// TODO: why again does Mozi use pin 9?
-// NOTE: PB0 is D8,D11,D10,D9,D12,D13 (last two bits are shared w/ external crystal)
+// TODO: use other output pins 10,11,12
+const int SPEAKER_PIN = 10;
 
 const int OCTAVE_PIN = A4;
 const int GLIDE_PIN = A5;
 
-// TODO: use + other pin
-const int GREEN = LED_BUILTIN;
+const int PLAYING_INDICATOR_LED = 13; // ie LED_BUILTIN
+const int FUNCTION_INDICATOR_LED = A3;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
 Frequency frequency(glide, CYCLES_PER_GLIDE_MAX);
 
-void blink(int count = 2, int wait = 200) {
+void blink(int count = 2, int timePerColor = 100) {
   while (count >= 0) {
-    digitalWrite(LED_BUILTIN, HIGH);
-    delay(wait);
-    digitalWrite(LED_BUILTIN, LOW);
-    delay(wait);
+    digitalWrite(PLAYING_INDICATOR_LED, HIGH);
+    digitalWrite(FUNCTION_INDICATOR_LED, LOW);
+    delay(timePerColor);
+    digitalWrite(PLAYING_INDICATOR_LED, HIGH);
+    digitalWrite(FUNCTION_INDICATOR_LED, HIGH);
+    delay(timePerColor);
+    digitalWrite(PLAYING_INDICATOR_LED, LOW);
+    digitalWrite(FUNCTION_INDICATOR_LED, HIGH);
+    delay(timePerColor);
+    digitalWrite(PLAYING_INDICATOR_LED, LOW);
+    digitalWrite(FUNCTION_INDICATOR_LED, LOW);
+    delay(timePerColor);
 
     count = count - 1;
   }
@@ -42,17 +45,32 @@ void blink(int count = 2, int wait = 200) {
 
 void setup() {
   Serial.begin(9600);
-  pinMode(LED_BUILTIN, OUTPUT);
+
+  pinMode(PLAYING_INDICATOR_LED, OUTPUT);
+  pinMode(FUNCTION_INDICATOR_LED, OUTPUT);
 
   blink();
+}
+
+void updateFromAnalogInputs() {
+  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, 0, 4);
+  float newGlide = float(analogRead(GLIDE_PIN)) / 1023;
+
+  if (octave != newOctave || glide != newGlide) {
+    octave = newOctave;
+    glide = newGlide;
+
+    digitalWrite(FUNCTION_INDICATOR_LED, HIGH);
+  } else {
+    digitalWrite(FUNCTION_INDICATOR_LED, LOW);
+  }
 }
 
 void loop() {
   buffer.populate();
 
   // TODO: do this less often...
-  octave = map(analogRead(OCTAVE_PIN), 0, 1023, 0, 4);
-  glide = float(analogRead(GLIDE_PIN)) / 1023;
+  updateFromAnalogInputs();
 
   if (printToSerial) {
     frequency.print();
@@ -64,14 +82,11 @@ void loop() {
     }
 
     noTone(SPEAKER_PIN);
-    digitalWrite(LED_BUILTIN, LOW);
+    digitalWrite(PLAYING_INDICATOR_LED, LOW);
   } else {
-    frequency.update(
-      notes.get(buffer.getFirst()) / 4 * pow(2, octave),
-      glide
-    );
+    frequency.update(notes.get(buffer.getFirst()) / 4 * pow(2, octave), glide);
 
     tone(SPEAKER_PIN, frequency.get());
-    digitalWrite(LED_BUILTIN, HIGH);
+    digitalWrite(PLAYING_INDICATOR_LED, HIGH);
   }
 }

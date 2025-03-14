@@ -1,19 +1,17 @@
-#include "Arduino.h"
 #include "KeyBuffer.h"
+#include "Arduino.h"
 
 #define CIRCULAR_BUFFER_DEBUG
-#include <CircularBuffer.h>
+#include <CircularBuffer.hpp>
 #include <Keypad.h>
 
 const byte ROWS = 5;
 const byte COLS = 5;
-byte key_indexes[ROWS][COLS] = {
-  {1, 6, 11, 16, 21},
-  {2, 7, 12, 17, 22},
-  {3, 8, 13, 18, 23},
-  {4, 9, 14, 19, 24},
-  {5, 10, 15, 20, 25}
-};
+byte key_indexes[ROWS][COLS] = {{1, 6, 11, 16, 21},
+                                {2, 7, 12, 17, 22},
+                                {3, 8, 13, 18, 23},
+                                {4, 9, 14, 19, 24},
+                                {5, 10, 15, 20, 25}};
 byte rowPins[ROWS] = {7, 8, 14, 15, 16};
 byte colPins[COLS] = {2, 3, 4, 5, 6};
 
@@ -26,9 +24,7 @@ KeyBuffer::KeyBuffer() {
   _buttons.setDebounceTime(KEYPAD_LIBRARY_MINIMUM_DEBOUNCE);
 }
 
-bool KeyBuffer::isEmpty() {
-  return _buffer.isEmpty();
-}
+bool KeyBuffer::isEmpty() { return _buffer.isEmpty(); }
 
 bool KeyBuffer::isInBuffer(int c) {
   bool value = false;
@@ -103,15 +99,10 @@ void KeyBuffer::print() {
         Serial.print(",");
       }
     }
-    Serial.print(
-      "] ("
-      + String(_buffer.size()) + "/" + String(BUFFER_MAX)
-      + ")"
-    );
+    Serial.print("] (" + String(_buffer.size()) + "/" + String(BUFFER_MAX) +
+                 ")");
     Serial.println();
   }
 }
 
-char KeyBuffer::getFirst() {
-  return _buffer.first();
-}
+char KeyBuffer::getFirst() { return _buffer.first(); }

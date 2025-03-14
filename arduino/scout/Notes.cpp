@@ -1,5 +1,5 @@
-#include "Arduino.h"
 #include "Notes.h"
+#include "Arduino.h"
 
 const float MIDDLE_A = 440;
 const float FREQUENCY_RATIO = 1.059463; // magic! 2 to the power of 1/12
@@ -14,6 +14,4 @@ Notes::Notes(int startingNoteDistanceFromMiddleA) {
   }
 }
 
-float Notes::get(int i) {
-  return _notes[i];
-}
+float Notes::get(int i) { return _notes[i]; }

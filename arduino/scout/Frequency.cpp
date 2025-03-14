@@ -1,5 +1,5 @@
-#include "Arduino.h"
 #include "Frequency.h"
+#include "Arduino.h"
 #include "Notes.h"
 
 Frequency::Frequency(float glide, int cyclesPerGlideMax) {
@@ -7,9 +7,7 @@ Frequency::Frequency(float glide, int cyclesPerGlideMax) {
   _cyclesPerGlideMax = cyclesPerGlideMax;
 }
 
-float Frequency::get() {
-  return _frequency;
-}
+float Frequency::get() { return _frequency; }
 
 void Frequency::update(float target, float glide) {
   _target = target;
@@ -20,13 +18,13 @@ void Frequency::update(float target, float glide) {
       _frequency = _target;
     } else {
       if (_target != _previousTarget) {
-        _glideStep = abs(_target - _previousTarget)
-                     / (glide * _cyclesPerGlideMax);
+        _glideStep =
+            abs(_target - _previousTarget) / (glide * _cyclesPerGlideMax);
       }
 
       _frequency = (_target > _frequency)
-                   ? min(_target, _frequency + _glideStep)
-                   : max(_target, _frequency - _glideStep);
+                       ? min(_target, _frequency + _glideStep)
+                       : max(_target, _frequency - _glideStep);
     }
   }
 
@@ -35,14 +33,10 @@ void Frequency::update(float target, float glide) {
   }
 }
 
-void Frequency::reset() {
-  _frequency = 0;
-}
+void Frequency::reset() { _frequency = 0; }
 
 void Frequency::print() {
-  Serial.println(
-    "frequency:" + String(_frequency)
-    + ",target:" + String(_target)
-    + ",previousTargetFrequency:" + String(_previousTarget)
-  );
+  Serial.println("frequency:" + String(_frequency) +
+                 ",target:" + String(_target) +
+                 ",previousTargetFrequency:" + String(_previousTarget));
 }
