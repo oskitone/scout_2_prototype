@@ -60,12 +60,19 @@ Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys
   - Self-document pin connection assignments in schematic
   - Move text beyond key area
   - More key mounting screw holes? Key bed subassembly with multiple parts
-- Power switch is reversed. It should power on when actuator is "up" like Scout
+  - Reverse power switch direction. It should power on when actuator is "up" like Scout
+  - Note UART hookup orientation on silkscreen
 - Needs a bigger speaker for bass!
 
 Anything else?
 
 https://github.com/user-attachments/assets/99f4f9d2-c58f-4821-b225-9032d2b2e849
+
+## Uploading new code
+
+The UART header [works the same as the OG Scout](https://oskitone.github.io/scout/change-the-arduino-code).
+
+The cable's black wire should be on the left and green on the right.
 
 ## BOM
 
