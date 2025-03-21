@@ -154,14 +154,19 @@ void loop() {
     }
 
     //noTone(SPEAKER_PIN);
-    speaker_a_preload = 0;
     digitalWrite(PLAYING_INDICATOR_LED, LOW);
   } else {
     //frequency.update(notes.get(buffer.getFirst()) / 4 * pow(2, octave), glide);
 
     //tone(SPEAKER_PIN, frequency.get());
-    speaker_a_preload = freqTable[buffer.getFirst()];
+   
     digitalWrite(PLAYING_INDICATOR_LED, HIGH);
   }
+
+  uint8_t size = buffer.getSize();
+  speaker_a_preload = (size > 0) ? freqTable[buffer.getElement(0)] : 0;
+  speaker_b_preload = (size > 1) ? freqTable[buffer.getElement(1)] : 0;
+  speaker_c_preload = (size > 2) ? freqTable[buffer.getElement(2)] : 0;
+  speaker_d_preload = (size > 3) ? freqTable[buffer.getElement(3)] : 0;
 }
 
