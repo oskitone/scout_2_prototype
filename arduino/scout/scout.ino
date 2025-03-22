@@ -72,11 +72,6 @@ ISR(TIMER2_OVF_vect) // currently 16 MHz / 256 = 62.5 kHz
   }
 }
 
-//TODO: Dynamically calculate these, potentially dithering to get to correct frequency. Need to think about this.
-//      The precision is such that this gets noticably out of tune across two octaves.
-//      Because I am using a table right now, glides are also broken.
-uint8_t freqTable[25] = {239, 225, 213, 201, 190, 179, 169, 159, 150, 142, 134, 127, 119, 113, 106, 100, 95, 89, 84, 80, 75, 71, 67, 63, 60}; // counts for C3-C5 at a base of 61.5 kHz
-
 // END TODO BLOCK
 
 void blink(int count = 2, int timePerColor = 100) {
@@ -134,14 +129,18 @@ void updateFromAnalogInputs() {
 
 void loop() {
   uint8_t i;
-  
+  uint8_t size;
+
   buffer.populate();
+  size = buffer.getSize();
 
   // TODO: do this less often...
   updateFromAnalogInputs();
 
   if (printToSerial) {
-    frequency[0].print();
+    for (i = 0; i < size; i++) {
+      frequency[i].print();
+    }
   }
 
   if (buffer.isEmpty()) {
@@ -150,20 +149,15 @@ void loop() {
     digitalWrite(PLAYING_INDICATOR_LED, HIGH);
   }
 
-  uint8_t size = buffer.getSize();
-
-  for (i = 0; i < buffer.getSize(); i++) {
+  for (i = 0; i < size; i++) {
     frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave), glide);
+    speaker_preload[i] = frequency[i].getTicks();
   }
   for (; i < BUFFER_MAX; i++) {
     if (!glideOnFreshKeyPresses) {
       frequency[i].reset();
     }
+    speaker_preload[i] = 0;
   }
-
-  speaker_preload[0] = (size > 0) ? frequency[0].getTicks() : 0;
-  speaker_preload[1] = (size > 1) ? frequency[1].getTicks() : 0;
-  speaker_preload[2] = (size > 2) ? frequency[2].getTicks() : 0;
-  speaker_preload[3] = (size > 3) ? frequency[3].getTicks() : 0;
 }
 
