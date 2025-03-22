@@ -12,5 +12,6 @@ const uint8_t INT_US = 16; // uSec = 256 counts in an 8-bit counter / 16 MHz
 extern uint16_t speaker_preload[BUFFER_MAX];
 
 void newToneSetup();
+void loadTone(uint8_t oscillator, uint16_t period);
 
 #endif

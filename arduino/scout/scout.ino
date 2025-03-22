@@ -90,13 +90,13 @@ void loop() {
 
   for (i = 0; i < size; i++) {
     frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave), glide);
-    speaker_preload[i] = frequency[i].getPeriod();
+    loadTone(i, frequency[i].getPeriod());
   }
   for (; i < BUFFER_MAX; i++) {
     if (!glideOnFreshKeyPresses) {
       frequency[i].reset();
     }
-    speaker_preload[i] = 0;
+    loadTone(i, 0);
   }
 }
 

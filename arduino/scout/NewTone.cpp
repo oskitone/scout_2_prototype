@@ -54,3 +54,7 @@ void newToneSetup() {
     pinMode(SPEAKER_PINS[i], OUTPUT);
   }
 }
+
+void loadTone(uint8_t oscillator, uint16_t period) {
+  speaker_preload[oscillator] = period;
+}
