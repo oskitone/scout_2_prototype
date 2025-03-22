@@ -9,13 +9,13 @@ public:
   Frequency(float glide, int cyclesPerGlideMax);
   void update(float target, float glide);
   float get();
-  uint8_t getTicks();
+  uint16_t getTicks();
   void reset();
   void print();
 
 private:
   float _frequency = 0;
-  float _ticks = 0;
+  uint16_t _ticks = 0;
   float _glide;
   float _glideStep;
   float _previousTarget;

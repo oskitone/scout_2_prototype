@@ -9,7 +9,7 @@ Frequency::Frequency(float glide, int cyclesPerGlideMax) {
 
 float Frequency::get() { return _frequency; }
 
-uint8_t Frequency::getTicks() { return _ticks; }
+uint16_t Frequency::getTicks() { return _ticks; }
 
 void Frequency::update(float target, float glide) {
   _target = target;
@@ -28,7 +28,7 @@ void Frequency::update(float target, float glide) {
                        ? min(_target, _frequency + _glideStep)
                        : max(_target, _frequency - _glideStep);
     }
-    _ticks = (uint8_t)((31250.0f / _frequency) + 0.5f);
+    _ticks = (uint16_t)((31250.0f / _frequency) + 0.5f);
   }
 
   if (!needsUpdate) {

@@ -53,7 +53,7 @@ void setup() {
 }
 
 void updateFromAnalogInputs() {
-  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, 1, 3);
+  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, -1, 3);
   float newGlide = float(analogRead(GLIDE_PIN)) / 1023;
 
   if (octave != newOctave || glide != newGlide) {

@@ -2,15 +2,15 @@
 #include "KeyBuffer.h"
 #include "Arduino.h"
 
-uint8_t speaker_preload[BUFFER_MAX] = {0};
+uint16_t speaker_preload[BUFFER_MAX] = {0};
 
 // Note: rolling this into a loop causes us to miss the timing.
 ISR(TIMER2_OVF_vect) // currently 16 MHz / 256 = 62.5 kHz
 {
-  static uint8_t speaker_a_ctr = 1;
-  static uint8_t speaker_b_ctr = 1;
-  static uint8_t speaker_c_ctr = 1;
-  static uint8_t speaker_d_ctr = 1;
+  static uint16_t speaker_a_ctr = 1;
+  static uint16_t speaker_b_ctr = 1;
+  static uint16_t speaker_c_ctr = 1;
+  static uint16_t speaker_d_ctr = 1;
 
   if (speaker_preload[0] != 0) {
     if (--speaker_a_ctr == 0) {
