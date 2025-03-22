@@ -11,7 +11,7 @@ const uint8_t SPEAKER_B_MASK = 0x04;
 const uint8_t SPEAKER_C_MASK = 0x08;
 const uint8_t SPEAKER_D_MASK = 0x10;
 
-const uint8_t INT_US = 16;
+const uint8_t INT_US = 16; // uSec = 256 counts in an 8-bit counter / 16 MHz
 
 extern uint16_t speaker_preload[BUFFER_MAX];
 

@@ -5,7 +5,7 @@
 uint16_t speaker_preload[BUFFER_MAX] = {0};
 
 // Note: rolling this into a loop causes us to miss the timing.
-ISR(TIMER2_OVF_vect) // currently 16 MHz / 256 = 62.5 kHz
+ISR(TIMER2_OVF_vect) // 16 MHz / 256 = 62.5 kHz
 {
   static int16_t speaker_a_ctr = INT_US;
   static int16_t speaker_b_ctr = INT_US;
@@ -49,7 +49,7 @@ void newToneSetup() {
   noInterrupts();
   TCCR2A = 0;
   TCCR2B = 0;
-  TCCR2B |= (0 << CS22) | (0 << CS21) | (1 << CS20); // no prescaler
+  TCCR2B |= (0 << CS22) | (0 << CS21) | (1 << CS20); // no prescaler -- interrupt every 256 ticks at 16 MHz = 62.5 kHz
   TIMSK2 |= (1 << TOIE2); // enable timer overflow interrupt
   interrupts();
 
