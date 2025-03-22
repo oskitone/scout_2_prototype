@@ -56,5 +56,7 @@ void newToneSetup() {
 }
 
 void loadTone(uint8_t oscillator, uint16_t period) {
-  speaker_preload[oscillator] = period;
+  if (oscillator < BUFFER_MAX) {
+    speaker_preload[oscillator] = period;
+  }
 }
