@@ -53,7 +53,7 @@ void setup() {
 }
 
 void updateFromAnalogInputs() {
-  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, -1, 3);
+  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, -1, 4);
   float newGlide = float(analogRead(GLIDE_PIN)) / 1023;
 
   if (octave != newOctave || glide != newGlide) {
@@ -90,7 +90,7 @@ void loop() {
 
   for (i = 0; i < size; i++) {
     frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave), glide);
-    speaker_preload[i] = frequency[i].getTicks();
+    speaker_preload[i] = frequency[i].getPeriod();
   }
   for (; i < BUFFER_MAX; i++) {
     if (!glideOnFreshKeyPresses) {
