@@ -17,6 +17,8 @@ public:
   void print();
   void printBuffer();
   void populate();
+  uint8_t getSize();
+  char getElement(uint8_t e);
 
 private:
   CircularBuffer<int, BUFFER_MAX> _buffer;

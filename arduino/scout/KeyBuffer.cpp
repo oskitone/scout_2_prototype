@@ -106,3 +106,7 @@ void KeyBuffer::print() {
 }
 
 char KeyBuffer::getFirst() { return _buffer.first(); }
+
+uint8_t KeyBuffer::getSize() { return _buffer.size(); }
+
+char KeyBuffer::getElement(uint8_t e) { return _buffer[e]; }
