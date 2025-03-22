@@ -69,7 +69,7 @@ void KeyBuffer::populate() {
 
   _buttons.getKeys(); // populate keys
 
-  for (int i = LIST_MAX-1; i >= 0; i--) {
+  for (int i = 0; i < LIST_MAX; i++) {
     byte kstate = _buttons.key[i].kstate;
     byte kchar = _buttons.key[i].kchar - 1;
 
