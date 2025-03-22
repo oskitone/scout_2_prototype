@@ -4,6 +4,7 @@
 
 uint8_t speaker_preload[BUFFER_MAX] = {0};
 
+// Note: rolling this into a loop causes us to miss the timing.
 ISR(TIMER2_OVF_vect) // currently 16 MHz / 256 = 62.5 kHz
 {
   static uint8_t speaker_a_ctr = 1;
