@@ -67,17 +67,14 @@ void updateFromAnalogInputs() {
 }
 
 void loop() {
-  uint8_t i;
-  uint8_t size;
-
   buffer.populate();
-  size = buffer.getSize();
+  uint8_t size = buffer.getSize();
 
   // TODO: do this less often...
   updateFromAnalogInputs();
 
   if (printToSerial) {
-    for (i = 0; i < size; i++) {
+    for (uint8_t i = 0; i < size; i++) {
       frequency[i].print();
     }
   }
@@ -88,15 +85,16 @@ void loop() {
     digitalWrite(PLAYING_INDICATOR_LED, HIGH);
   }
 
-  for (i = 0; i < size; i++) {
-    frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave), glide);
-    loadTone(i, frequency[i].getPeriod());
-  }
-  for (; i < BUFFER_MAX; i++) {
-    if (!glideOnFreshKeyPresses) {
-      frequency[i].reset();
+  for (uint8_t i = 0; i < BUFFER_MAX; i++) {
+    if (i < size) {
+      frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave),
+                          glide);
+      loadTone(i, frequency[i].getHalfPeriod());
+    } else {
+      if (!glideOnFreshKeyPresses) {
+        frequency[i].reset();
+      }
+      loadTone(i, 0);
     }
-    loadTone(i, 0);
   }
 }
-
