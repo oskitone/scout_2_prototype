@@ -52,9 +52,6 @@ Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys
 
 - 3D prints
   - Octave control really needs detents or some kinda tactile feedback on rotation.
-- For current firmware
-  - RGB LED's red is unused
-  - Mute or use unused output pins D10-D12
 - For next rev
   - Needs decoupling cap before amp, probably
   - Self-document pin connection assignments in schematic

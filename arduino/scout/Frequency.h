@@ -15,7 +15,7 @@ public:
 
 private:
   float _frequency = 0;
-  uint16_t _halfPeriod = 0;
+  uint16_t _halfPeriodMicroseconds = 0;
   float _glide;
   float _glideStep;
   float _previousTarget;
