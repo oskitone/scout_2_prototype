@@ -8,37 +8,37 @@ uint16_t speaker_preload[BUFFER_MAX] = {0};
 
 // 16 MHz / 256 = 62.5 kHz
 ISR(TIMER2_OVF_vect) {
-  static int16_t speaker_center[BUFFER_MAX] = {0};
+  static int16_t speaker_counter[BUFFER_MAX] = {0};
 
   if (speaker_preload[0] != 0) {
-    speaker_center[0] -= MICROSECONDS_PER_TIMER_COUNT;
-    while (speaker_center[0] <= 0) {
+    speaker_counter[0] -= MICROSECONDS_PER_TIMER_INTERRUPT;
+    while (speaker_counter[0] <= 0) {
       PINB |= SPEAKER_MASK[0];
-      speaker_center[0] += speaker_preload[0];
+      speaker_counter[0] += speaker_preload[0];
     }
   }
 
   if (speaker_preload[1] != 0) {
-    speaker_center[1] -= MICROSECONDS_PER_TIMER_COUNT;
-    while (speaker_center[1] <= 0) {
+    speaker_counter[1] -= MICROSECONDS_PER_TIMER_INTERRUPT;
+    while (speaker_counter[1] <= 0) {
       PINB |= SPEAKER_MASK[1];
-      speaker_center[1] += speaker_preload[1];
+      speaker_counter[1] += speaker_preload[1];
     }
   }
 
   if (speaker_preload[2] != 0) {
-    speaker_center[2] -= MICROSECONDS_PER_TIMER_COUNT;
-    while (speaker_center[2] <= 0) {
+    speaker_counter[2] -= MICROSECONDS_PER_TIMER_INTERRUPT;
+    while (speaker_counter[2] <= 0) {
       PINB |= SPEAKER_MASK[2];
-      speaker_center[2] += speaker_preload[2];
+      speaker_counter[2] += speaker_preload[2];
     }
   }
 
   if (speaker_preload[3] != 0) {
-    speaker_center[3] -= MICROSECONDS_PER_TIMER_COUNT;
-    while (speaker_center[3] <= 0) {
+    speaker_counter[3] -= MICROSECONDS_PER_TIMER_INTERRUPT;
+    while (speaker_counter[3] <= 0) {
       PINB |= SPEAKER_MASK[3];
-      speaker_center[3] += speaker_preload[3];
+      speaker_counter[3] += speaker_preload[3];
     }
   }
 }
