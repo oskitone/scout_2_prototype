@@ -1,6 +1,6 @@
 #include "NewTone.h"
-#include "KeyBuffer.h"
 #include "Arduino.h"
+#include "KeyBuffer.h"
 
 uint16_t speaker_preload[OSCILLATORS_MAX] = {0};
 

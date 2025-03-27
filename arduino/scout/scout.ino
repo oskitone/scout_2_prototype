@@ -1,7 +1,7 @@
 #include "Frequency.h"
 #include "KeyBuffer.h"
-#include "Notes.h"
 #include "NewTone.h"
+#include "Notes.h"
 
 // SETTINGS
 int octave = 3;

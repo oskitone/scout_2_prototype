@@ -1,8 +1,8 @@
 #ifndef NewTone_h
 #define NewTone_h
 
-#include "KeyBuffer.h"
 #include "Arduino.h"
+#include "KeyBuffer.h"
 
 #define OSCILLATORS_MAX BUFFER_MAX
 
