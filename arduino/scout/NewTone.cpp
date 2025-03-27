@@ -2,13 +2,13 @@
 #include "KeyBuffer.h"
 #include "Arduino.h"
 
-uint16_t speaker_preload[BUFFER_MAX] = {0};
+uint16_t speaker_preload[OSCILLATORS_MAX] = {0};
 
 // Note: rolling this into a loop causes us to miss the timing.
 
 // 16 MHz / 256 = 62.5 kHz
 ISR(TIMER2_OVF_vect) {
-  static int16_t speaker_counter[BUFFER_MAX] = {0};
+  static int16_t speaker_counter[OSCILLATORS_MAX] = {0};
 
   if (speaker_preload[0] != 0) {
     speaker_counter[0] -= MICROSECONDS_PER_TIMER_INTERRUPT;
@@ -57,13 +57,13 @@ void newToneSetup() {
 
   interrupts();
 
-  for (uint8_t i = 0; i < BUFFER_MAX; i++) {
+  for (uint8_t i = 0; i < OSCILLATORS_MAX; i++) {
     pinMode(SPEAKER_PINS[i], OUTPUT);
   }
 }
 
 void loadTone(uint8_t oscillator, uint16_t halfPeriod) {
-  if (oscillator < BUFFER_MAX) {
+  if (oscillator < OSCILLATORS_MAX) {
     speaker_preload[oscillator] = halfPeriod;
   }
 }

@@ -20,7 +20,10 @@ const int FUNCTION_INDICATOR_LED = A3;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
-Frequency frequency[BUFFER_MAX] = { {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX} };
+Frequency frequency[OSCILLATORS_MAX] = {{glide, CYCLES_PER_GLIDE_MAX},
+                                        {glide, CYCLES_PER_GLIDE_MAX},
+                                        {glide, CYCLES_PER_GLIDE_MAX},
+                                        {glide, CYCLES_PER_GLIDE_MAX}};
 
 void blink(int count = 2, int timePerColor = 100) {
   while (count >= 0) {
@@ -85,7 +88,7 @@ void loop() {
     digitalWrite(PLAYING_INDICATOR_LED, HIGH);
   }
 
-  for (uint8_t i = 0; i < BUFFER_MAX; i++) {
+  for (uint8_t i = 0; i < OSCILLATORS_MAX; i++) {
     if (i < size) {
       frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave),
                           glide);
