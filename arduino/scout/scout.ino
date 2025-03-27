@@ -1,6 +1,7 @@
 #include "Frequency.h"
 #include "KeyBuffer.h"
 #include "Notes.h"
+#include "NewTone.h"
 
 // SETTINGS
 int octave = 3;
@@ -11,9 +12,6 @@ bool printToSerial = false;
 const int CYCLES_PER_GLIDE_MAX = printToSerial ? 25 : 250;
 const int STARTING_NOTE_DISTANCE_FROM_MIDDLE_A = -9;
 
-// TODO: use other output pins 10,11,12
-const int SPEAKER_PIN = 10;
-
 const int OCTAVE_PIN = A4;
 const int GLIDE_PIN = A5;
 
@@ -22,7 +20,7 @@ const int FUNCTION_INDICATOR_LED = A3;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
-Frequency frequency(glide, CYCLES_PER_GLIDE_MAX);
+Frequency frequency[BUFFER_MAX] = { {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX}, {glide, CYCLES_PER_GLIDE_MAX} };
 
 void blink(int count = 2, int timePerColor = 100) {
   while (count >= 0) {
@@ -49,11 +47,13 @@ void setup() {
   pinMode(PLAYING_INDICATOR_LED, OUTPUT);
   pinMode(FUNCTION_INDICATOR_LED, OUTPUT);
 
+  newToneSetup();
+
   blink();
 }
 
 void updateFromAnalogInputs() {
-  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, 0, 4);
+  int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, -1, 4);
   float newGlide = float(analogRead(GLIDE_PIN)) / 1023;
 
   if (octave != newOctave || glide != newGlide) {
@@ -68,25 +68,33 @@ void updateFromAnalogInputs() {
 
 void loop() {
   buffer.populate();
+  uint8_t size = buffer.getSize();
 
   // TODO: do this less often...
   updateFromAnalogInputs();
 
   if (printToSerial) {
-    frequency.print();
+    for (uint8_t i = 0; i < size; i++) {
+      frequency[i].print();
+    }
   }
 
   if (buffer.isEmpty()) {
-    if (!glideOnFreshKeyPresses) {
-      frequency.reset();
-    }
-
-    noTone(SPEAKER_PIN);
     digitalWrite(PLAYING_INDICATOR_LED, LOW);
   } else {
-    frequency.update(notes.get(buffer.getFirst()) / 4 * pow(2, octave), glide);
-
-    tone(SPEAKER_PIN, frequency.get());
     digitalWrite(PLAYING_INDICATOR_LED, HIGH);
+  }
+
+  for (uint8_t i = 0; i < BUFFER_MAX; i++) {
+    if (i < size) {
+      frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave),
+                          glide);
+      loadTone(i, frequency[i].getHalfPeriod());
+    } else {
+      if (!glideOnFreshKeyPresses) {
+        frequency[i].reset();
+      }
+      loadTone(i, 0);
+    }
   }
 }

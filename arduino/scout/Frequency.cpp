@@ -9,6 +9,8 @@ Frequency::Frequency(float glide, int cyclesPerGlideMax) {
 
 float Frequency::get() { return _frequency; }
 
+uint16_t Frequency::getHalfPeriod() { return _halfPeriod; }
+
 void Frequency::update(float target, float glide) {
   _target = target;
   bool needsUpdate = _frequency != _target;
@@ -26,6 +28,7 @@ void Frequency::update(float target, float glide) {
                        ? min(_target, _frequency + _glideStep)
                        : max(_target, _frequency - _glideStep);
     }
+    _halfPeriod = (uint16_t)((500000.0f / _frequency) + 0.5f); // uSec
   }
 
   if (!needsUpdate) {
@@ -33,10 +36,13 @@ void Frequency::update(float target, float glide) {
   }
 }
 
-void Frequency::reset() { _frequency = 0; }
+void Frequency::reset() {
+  _frequency = 0;
+  _halfPeriod = 0;
+}
 
 void Frequency::print() {
-  Serial.println("frequency:" + String(_frequency) +
-                 ",target:" + String(_target) +
+  Serial.println("frequency:" + String(_frequency) + ",halfPeriod:" +
+                 String(_halfPeriod) + ",target:" + String(_target) +
                  ",previousTargetFrequency:" + String(_previousTarget));
 }
