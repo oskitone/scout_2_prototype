@@ -261,7 +261,7 @@ scout_2_prototype(
         [75.46329, 103.425],
     ],
     fillet_keys = !$preview,
-    pcb_silkscreen_path = "../images/scout-2-brd-d72051a.svg",
+    pcb_silkscreen_path = "../misc/scout-2-brd-d72051a.svg",
     show_base = true,
     show_battery_holder = true,
     show_speaker = true,
