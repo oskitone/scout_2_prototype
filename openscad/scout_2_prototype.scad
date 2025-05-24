@@ -72,15 +72,8 @@ module scout_2_prototype(
         pcb_position.z + PCB_HEIGHT + SPST_ACTUATOR_HEIGHT_OFF_PCB
     ];
 
-    // TODO: obviate battery_holder_position amendments here
-    battery_holder_position = [
-        (BATTERY_HOLDER_DEFAULT_WALL + tolerance) -(battery_holder_dimensions.x / 2)
-            + pcb_position.x + screw_positions[0].x,
-        (BATTERY_HOLDER_DEFAULT_WALL + tolerance)
-            + (BATTERY_HOLDER_FIXTURE_HITCH_LENGTH + battery_holder_web_length)
-            + padding,
-        PCB_BASE_BASE_HEIGHT
-    ];
+    // NOTE: eyeballed!
+    battery_holder_position = [80, 4, PCB_BASE_BASE_HEIGHT];
 
     echo(str("battery_holder_dimensions = ", battery_holder_dimensions));
 
@@ -92,9 +85,9 @@ module scout_2_prototype(
     ];
 
     module _base(
-        support_bar_pcb_xs = [0, SPST_PLOT * 14, SPST_PLOT * 22],
+        support_bar_pcb_xs = [0, SPST_PLOT * 10, SPST_PLOT * 22],
         support_bar_pcb_y = 14,
-        support_bar_widths = [SPST_PLOT * 6, SPST_PLOT * 3, SPST_PLOT * 7],
+        support_bar_widths = [SPST_PLOT * 5, SPST_PLOT * 7, SPST_PLOT * 7],
 
         // Eyeballed! See images/support_positions.png
         stool_pcb_positions = [
@@ -125,13 +118,12 @@ module scout_2_prototype(
         );
 
         translate([
-            -(BATTERY_HOLDER_DEFAULT_WALL + tolerance),
-            -(BATTERY_HOLDER_DEFAULT_WALL + tolerance),
-            0
-        ]) {
+            battery_holder_position.x + (BATTERY_HOLDER_DEFAULT_WALL + tolerance),
+            battery_holder_position.y - (BATTERY_HOLDER_DEFAULT_WALL + tolerance),
+            battery_holder_position.z - e
+        ]) rotate([0, 0, 90]) {
             battery_holder_hitches(
                 tolerance = tolerance,
-                battery_holder_position = battery_holder_position,
                 battery_holder_dimensions = battery_holder_dimensions,
                 web_length = battery_holder_web_length
             );
@@ -192,7 +184,7 @@ module scout_2_prototype(
 
     if (show_battery_holder) {
         translate([0,0,BATTERY_HOLDER_DEFAULT_FLOOR -e]) translate(battery_holder_position) {
-            battery_holder(
+            rotate([0, 0, 90]) battery_holder(
                 tolerance = tolerance,
                 quick_preview = quick_preview
             );
