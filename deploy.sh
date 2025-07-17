@@ -6,11 +6,9 @@
 set -o errexit
 set -o errtrace
 
-stub=$(ls arduino | xargs)
 port=$(arduino-cli board list | grep 'usbserial' | awk '{print $1}')
 
-input_path="$PWD/arduino/${stub}"
-build_dir="$PWD/build/$stub"
+input_slug="scout_2_prototype"
 
 function help() {
     echo "\
@@ -23,8 +21,17 @@ Usage:
 ./run.sh upload             Upload
 ./run.sh                    Compile and upload
 
+./run.sh [ACTION] -i INPUT  Set input arduino/ folder slug
+                            Default: ${input_slug}
 "
 }
+
+if [ "$1" == '-i' ]; then
+    input_slug="$2"
+fi
+
+input_path="$PWD/arduino/${input_slug}"
+build_dir="$PWD/build/${input_slug}"
 
 function compile() {
     echo "COMPILING"
