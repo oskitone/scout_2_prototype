@@ -53,12 +53,9 @@ Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys
 - 3D prints
   - Octave control really needs detents or some kinda tactile feedback on rotation.
 - For next rev
-  - Needs decoupling cap before amp, probably
-  - Self-document pin connection assignments in schematic
-  - Move text beyond key area
   - More key mounting screw holes? Key bed subassembly with multiple parts
-  - Reverse power switch direction. It should power on when actuator is "up" like Scout
-  - Note UART hookup orientation on silkscreen
+  - Rethink headphone output in signal path to minimize amplified noise
+  - 386 bass boost?
 - Tiny speaker is quick to distort and has no low end
 - Make it clear/explicit how FUNCTION_INDICATOR_LED is used as "hanging" indicator. Right now, it's incidental.
 

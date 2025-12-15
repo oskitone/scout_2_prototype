@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "SCOUT")
-		(date "2022-03-20")
-		(rev "2 proof A")
+		(date "2026-04-01")
+		(rev "2 proof B")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Audio:LM386"
@@ -4735,17 +4735,6 @@
 		)
 		(uuid "52c64bad-4bfb-42e9-86c4-1fe4ea9916e3")
 	)
-	(text "PIN NOTES:\n* keyboard_matrix uses\n  2,3,4,5,6,7,8,14(A0),15(A1),16(A2)\n* analog pots use 18(A4) and 19(A5)\n* RGB LED uses 13 and 17(A3)\n* 9,10,11,12 output to amp\n\nSo I think that's all pins used\nexcept 0 and 1, which are RX and TX"
-		(exclude_from_sim no)
-		(at 233.934 42.672 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ca3b900a-7302-46b4-a060-8442ba55b642")
-	)
 	(junction
 		(at 92.71 152.4)
 		(diameter 0)
@@ -4807,10 +4796,28 @@
 		(uuid "411e97c1-d3e9-448e-bc75-7356a7b515ea")
 	)
 	(junction
+		(at 146.05 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "507a7ce1-c43a-41e3-8fbf-2c8d34d0cc29")
+	)
+	(junction
 		(at 87.63 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6907c894-fdf7-4510-b5b8-34067ae306df")
+	)
+	(junction
+		(at 52.07 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c7273f6-de54-4308-a97d-db6ed01f9f04")
+	)
+	(junction
+		(at 146.05 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e5c847d-07a3-467a-90b2-43c141c09fda")
 	)
 	(junction
 		(at 118.11 91.44)
@@ -4841,12 +4848,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d53fef34-edf1-4217-989f-5900ea3586b5")
-	)
-	(junction
-		(at 52.07 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e2260907-3242-4a2c-8214-54471dc337bf")
 	)
 	(junction
 		(at 52.07 163.83)
@@ -4978,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 172.72) (xy 146.05 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a598bf8-832a-4519-8771-7148236acb93")
+	)
+	(wire
+		(pts
 			(xy 231.14 138.43) (xy 238.76 138.43)
 		)
 		(stroke
@@ -5038,7 +5049,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 151.13) (xy 153.67 172.72)
+			(xy 172.72 151.13) (xy 172.72 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5145,6 +5156,16 @@
 			(type default)
 		)
 		(uuid "24351546-7b7c-42a3-9bb9-592dc9902bfe")
+	)
+	(wire
+		(pts
+			(xy 63.5 146.05) (xy 71.12 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258da5e1-d0b6-4d21-a05e-a045c99cc336")
 	)
 	(wire
 		(pts
@@ -5358,7 +5379,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 151.13) (xy 153.67 151.13)
+			(xy 173.99 151.13) (xy 172.72 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5618,23 +5639,33 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 172.72) (xy 123.19 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad72399-619d-4ac7-a5cd-378f19beec55")
-	)
-	(wire
-		(pts
-			(xy 140.97 148.59) (xy 133.35 148.59)
+			(xy 160.02 148.59) (xy 146.05 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "828b0f7a-4c14-4882-821e-0349d211fa73")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 146.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83fca72c-a9ad-4596-9c13-f1411ca8dc0a")
+	)
+	(wire
+		(pts
+			(xy 146.05 166.37) (xy 146.05 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "848543a9-f48e-452c-a47c-3c855ad691d2")
 	)
 	(wire
 		(pts
@@ -5755,6 +5786,16 @@
 			(type default)
 		)
 		(uuid "97340439-d115-48ec-9f6a-075d58386f2c")
+	)
+	(wire
+		(pts
+			(xy 146.05 148.59) (xy 133.35 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d67031a-bf69-449b-aadc-27b6b770c03e")
 	)
 	(wire
 		(pts
@@ -5915,6 +5956,16 @@
 			(type default)
 		)
 		(uuid "b7337113-9b2c-4ea0-928f-49e3ec7ba155")
+	)
+	(wire
+		(pts
+			(xy 146.05 161.29) (xy 146.05 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b888c9d0-6b8a-419c-b4ec-8830e19bf28b")
 	)
 	(wire
 		(pts
@@ -6148,16 +6199,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 146.05) (xy 71.12 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcfc683b-d99f-4dcf-a37c-5f287812217c")
-	)
-	(wire
-		(pts
 			(xy 118.11 82.55) (xy 118.11 83.82)
 		)
 		(stroke
@@ -6228,6 +6269,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 146.05) (xy 71.12 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e482cd5b-5cd3-4f37-9482-695aa0becc9c")
+	)
+	(wire
+		(pts
 			(xy 219.71 120.65) (xy 226.06 120.65)
 		)
 		(stroke
@@ -6268,6 +6319,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 146.05) (xy 52.07 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea5d8a08-aeb0-405c-8f11-d24cd66a9d08")
+	)
+	(wire
+		(pts
 			(xy 194.31 44.45) (xy 196.85 44.45)
 		)
 		(stroke
@@ -6295,6 +6356,16 @@
 			(type default)
 		)
 		(uuid "efe78d38-67f7-4515-aa8e-96595c7d90d2")
+	)
+	(wire
+		(pts
+			(xy 146.05 172.72) (xy 172.72 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05ffab5-778c-43c3-bee6-8e7f27ea2ade")
 	)
 	(wire
 		(pts
@@ -6328,17 +6399,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 146.05) (xy 71.12 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f72e25ff-895e-4ddf-8ac6-071b6249bd03")
-	)
-	(wire
-		(pts
-			(xy 148.59 148.59) (xy 154.94 148.59)
+			(xy 167.64 148.59) (xy 173.99 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6396,7 +6457,7 @@
 		)
 		(uuid "ffea49f7-3b82-4efe-b380-ff1441d6b59e")
 	)
-	(global_label "A5"
+	(global_label "POT_2"
 		(shape input)
 		(at 105.41 88.9 0)
 		(fields_autoplaced yes)
@@ -6418,7 +6479,7 @@
 			)
 		)
 	)
-	(global_label "A0"
+	(global_label "KEYS_R3"
 		(shape input)
 		(at 105.41 76.2 0)
 		(fields_autoplaced yes)
@@ -6440,7 +6501,7 @@
 			)
 		)
 	)
-	(global_label "A4"
+	(global_label "POT_1"
 		(shape input)
 		(at 157.48 78.105 0)
 		(fields_autoplaced yes)
@@ -6484,7 +6545,7 @@
 			)
 		)
 	)
-	(global_label "D11"
+	(global_label "OSCS_3"
 		(shape input)
 		(at 38.1 163.83 180)
 		(fields_autoplaced yes)
@@ -6528,7 +6589,7 @@
 			)
 		)
 	)
-	(global_label "D4"
+	(global_label "KEYS_C3"
 		(shape input)
 		(at 105.41 106.68 0)
 		(fields_autoplaced yes)
@@ -6550,7 +6611,7 @@
 			)
 		)
 	)
-	(global_label "A1"
+	(global_label "KEYS_R4"
 		(shape input)
 		(at 105.41 78.74 0)
 		(fields_autoplaced yes)
@@ -6572,7 +6633,7 @@
 			)
 		)
 	)
-	(global_label "D8"
+	(global_label "KEYS_R2"
 		(shape input)
 		(at 105.41 53.34 0)
 		(fields_autoplaced yes)
@@ -6594,7 +6655,7 @@
 			)
 		)
 	)
-	(global_label "A3"
+	(global_label "RGB_R"
 		(shape input)
 		(at 105.41 83.82 0)
 		(fields_autoplaced yes)
@@ -6616,7 +6677,7 @@
 			)
 		)
 	)
-	(global_label "D13"
+	(global_label "RGB_B"
 		(shape input)
 		(at 105.41 66.04 0)
 		(fields_autoplaced yes)
@@ -6660,7 +6721,7 @@
 			)
 		)
 	)
-	(global_label "A1"
+	(global_label "KEYS_R4"
 		(shape input)
 		(at 194.31 38.1 180)
 		(fields_autoplaced yes)
@@ -6703,7 +6764,7 @@
 			)
 		)
 	)
-	(global_label "D6"
+	(global_label "KEYS_D5"
 		(shape input)
 		(at 105.41 111.76 0)
 		(fields_autoplaced yes)
@@ -6725,7 +6786,7 @@
 			)
 		)
 	)
-	(global_label "D12"
+	(global_label "OSCS_4"
 		(shape input)
 		(at 105.41 63.5 0)
 		(fields_autoplaced yes)
@@ -6747,7 +6808,7 @@
 			)
 		)
 	)
-	(global_label "D2"
+	(global_label "KEYS_C1"
 		(shape input)
 		(at 105.41 101.6 0)
 		(fields_autoplaced yes)
@@ -6769,7 +6830,7 @@
 			)
 		)
 	)
-	(global_label "D11"
+	(global_label "OSCS_3"
 		(shape input)
 		(at 105.41 55.88 0)
 		(fields_autoplaced yes)
@@ -6791,7 +6852,7 @@
 			)
 		)
 	)
-	(global_label "A0"
+	(global_label "KEYS_R3"
 		(shape input)
 		(at 194.31 35.56 180)
 		(fields_autoplaced yes)
@@ -6813,7 +6874,7 @@
 			)
 		)
 	)
-	(global_label "A3"
+	(global_label "RGB_R"
 		(shape input)
 		(at 43.18 99.06 90)
 		(fields_autoplaced yes)
@@ -6835,7 +6896,7 @@
 			)
 		)
 	)
-	(global_label "D10"
+	(global_label "OSCS_2"
 		(shape input)
 		(at 105.41 58.42 0)
 		(fields_autoplaced yes)
@@ -6857,7 +6918,7 @@
 			)
 		)
 	)
-	(global_label "D12"
+	(global_label "OSCS_4"
 		(shape input)
 		(at 38.1 172.72 180)
 		(fields_autoplaced yes)
@@ -6879,7 +6940,7 @@
 			)
 		)
 	)
-	(global_label "D3"
+	(global_label "KEYS_C2"
 		(shape input)
 		(at 105.41 104.14 0)
 		(fields_autoplaced yes)
@@ -6901,7 +6962,7 @@
 			)
 		)
 	)
-	(global_label "D4"
+	(global_label "KEYS_C3"
 		(shape input)
 		(at 194.31 49.53 180)
 		(fields_autoplaced yes)
@@ -6922,7 +6983,7 @@
 			)
 		)
 	)
-	(global_label "D10"
+	(global_label "OSCS_2"
 		(shape input)
 		(at 38.1 154.94 180)
 		(fields_autoplaced yes)
@@ -6944,7 +7005,7 @@
 			)
 		)
 	)
-	(global_label "D7"
+	(global_label "KEYS_R1"
 		(shape input)
 		(at 105.41 114.3 0)
 		(fields_autoplaced yes)
@@ -6966,7 +7027,7 @@
 			)
 		)
 	)
-	(global_label "D5"
+	(global_label "KEYS_D4"
 		(shape input)
 		(at 194.31 52.07 180)
 		(fields_autoplaced yes)
@@ -6987,7 +7048,7 @@
 			)
 		)
 	)
-	(global_label "D9"
+	(global_label "OSCS_1"
 		(shape input)
 		(at 105.41 60.96 0)
 		(fields_autoplaced yes)
@@ -7009,7 +7070,7 @@
 			)
 		)
 	)
-	(global_label "D7"
+	(global_label "KEYS_R1"
 		(shape input)
 		(at 194.31 30.48 180)
 		(fields_autoplaced yes)
@@ -7030,7 +7091,7 @@
 			)
 		)
 	)
-	(global_label "D2"
+	(global_label "KEYS_C1"
 		(shape input)
 		(at 194.31 44.45 180)
 		(fields_autoplaced yes)
@@ -7051,7 +7112,7 @@
 			)
 		)
 	)
-	(global_label "D13"
+	(global_label "RGB_B"
 		(shape input)
 		(at 48.26 99.06 90)
 		(fields_autoplaced yes)
@@ -7117,7 +7178,7 @@
 			)
 		)
 	)
-	(global_label "D3"
+	(global_label "KEYS_C2"
 		(shape input)
 		(at 194.31 46.99 180)
 		(fields_autoplaced yes)
@@ -7138,7 +7199,7 @@
 			)
 		)
 	)
-	(global_label "A2"
+	(global_label "KEYS_R5"
 		(shape input)
 		(at 105.41 81.28 0)
 		(fields_autoplaced yes)
@@ -7160,7 +7221,7 @@
 			)
 		)
 	)
-	(global_label "A4"
+	(global_label "POT_1"
 		(shape input)
 		(at 105.41 86.36 0)
 		(fields_autoplaced yes)
@@ -7182,7 +7243,7 @@
 			)
 		)
 	)
-	(global_label "A2"
+	(global_label "KEYS_R5"
 		(shape input)
 		(at 194.31 40.64 180)
 		(fields_autoplaced yes)
@@ -7204,7 +7265,7 @@
 			)
 		)
 	)
-	(global_label "D5"
+	(global_label "KEYS_D4"
 		(shape input)
 		(at 105.41 109.22 0)
 		(fields_autoplaced yes)
@@ -7226,7 +7287,7 @@
 			)
 		)
 	)
-	(global_label "D6"
+	(global_label "KEYS_D5"
 		(shape input)
 		(at 194.31 54.61 180)
 		(fields_autoplaced yes)
@@ -7247,7 +7308,7 @@
 			)
 		)
 	)
-	(global_label "D8"
+	(global_label "KEYS_R2"
 		(shape input)
 		(at 194.31 33.02 180)
 		(fields_autoplaced yes)
@@ -7311,7 +7372,7 @@
 			)
 		)
 	)
-	(global_label "A5"
+	(global_label "POT_2"
 		(shape input)
 		(at 157.48 109.855 0)
 		(fields_autoplaced yes)
@@ -7333,7 +7394,7 @@
 			)
 		)
 	)
-	(global_label "D9"
+	(global_label "OSCS_1"
 		(shape input)
 		(at 38.1 146.05 180)
 		(fields_autoplaced yes)
@@ -8777,7 +8838,7 @@
 	)
 	(symbol
 		(lib_id "Device:CP1")
-		(at 144.78 148.59 90)
+		(at 163.83 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8785,7 +8846,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000608927a0")
 		(property "Reference" "C6"
-			(at 140.97 152.4 90)
+			(at 160.02 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8794,7 +8855,7 @@
 			)
 		)
 		(property "Value" "220uF"
-			(at 144.78 154.94 90)
+			(at 163.83 154.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8803,7 +8864,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
-			(at 144.78 148.59 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8812,7 +8873,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 148.59 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8821,7 +8882,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 148.59 0)
+			(at 163.83 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9792,7 +9853,7 @@
 	)
 	(symbol
 		(lib_id "Device:Speaker")
-		(at 160.02 148.59 0)
+		(at 179.07 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9800,7 +9861,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006098893a")
 		(property "Reference" "LS1"
-			(at 164.338 148.6916 0)
+			(at 183.388 148.6916 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9809,7 +9870,7 @@
 			)
 		)
 		(property "Value" "Speaker"
-			(at 164.338 151.003 0)
+			(at 183.388 151.003 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,7 +9879,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 160.02 153.67 0)
+			(at 179.07 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9827,7 +9888,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 159.766 149.86 0)
+			(at 178.816 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9836,7 +9897,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 148.59 0)
+			(at 179.07 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11650,6 +11711,207 @@
 			(project ""
 				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 146.05 163.83 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9fcd854f-dcd3-4ccd-8100-f99d54c1aab8")
+		(property "Reference" "C9"
+			(at 142.24 161.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".05uF"
+			(at 140.97 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-official/Capacitor_THT.pretty:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 145.0848 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "63d88324-3bab-4658-93ca-5f9e811312df")
+		)
+		(pin "2"
+			(uuid "fb95d1d4-0fbb-4529-b86f-9090f6b93421")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 146.05 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9ff5df19-e30c-4b43-a696-7323b0e5e38b")
+		(property "Reference" "C7"
+			(at 60.96 138.938 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ".1uF"
+			(at 60.96 141.478 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "kicad-official/Capacitor_THT.pretty:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 64.77 145.0848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "80db54f2-ad70-464b-aea7-244d6cc6734f")
+		)
+		(pin "2"
+			(uuid "84fb190c-21da-4dbc-91ea-13c26466c70c")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 146.05 156.21 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e61d8fe4-9153-4d7f-ad07-31e234bdc3e5")
+		(property "Reference" "R14"
+			(at 144.272 155.067 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10"
+			(at 144.018 157.099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "kicad-official/Resistor_THT.pretty:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 146.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 146.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ead5aa38-d436-4f97-b6ef-c7eba730c71d")
+		)
+		(pin "2"
+			(uuid "d005d8c4-49dc-4f8b-aa4c-2f3a7b48fae0")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74"
+					(reference "R14")
 					(unit 1)
 				)
 			)

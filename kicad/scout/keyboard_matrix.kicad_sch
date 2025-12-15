@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "6b208a8b-b312-4164-a07d-8ed5c47ea1d4")
 	(paper "A4")
+	(title_block
+		(title "SCOUT")
+		(date "2026-04-01")
+		(rev "2 proof B")
+	)
 	(lib_symbols
 		(symbol "Device:D_Small"
 			(pin_numbers
@@ -3921,6 +3926,140 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
+		(at 199.39 102.87 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0be6c038-ec7d-4509-a09e-e28e5616d9dd")
+		(property "Reference" "D23"
+			(at 199.39 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.85 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "294fff62-8bc1-44be-8fbc-998731b17f85")
+		)
+		(pin "2"
+			(uuid "16e890cd-73d5-4e1f-b638-85ae8998d242")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 199.39 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19b8b764-95c3-4995-a1ca-e2b2ab448afb")
+		(property "Reference" "D25"
+			(at 199.39 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.85 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 199.39 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d70fa1a8-485c-4d04-a60b-3b8481a2c890")
+		)
+		(pin "2"
+			(uuid "07040684-64fa-4d12-986b-9264e4c90aa9")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
 		(at 92.71 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3981,6 +4120,73 @@
 			(project "scout"
 				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 199.39 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49e52b38-1aa9-4e0a-a9cb-a99eaa221775")
+		(property "Reference" "D21"
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.85 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 199.39 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6752c78-980e-44af-bd1f-d32a637a725a")
+		)
+		(pin "2"
+			(uuid "b428c819-5c13-48cb-9696-a43c474206ab")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -4450,6 +4656,73 @@
 			(project "scout"
 				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 199.39 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a428f5a6-3766-4f2e-8efc-ff0e2b3854b7")
+		(property "Reference" "D22"
+			(at 199.39 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 199.39 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e1c04255-e27a-43da-95dd-ecbbb124be44")
+		)
+		(pin "2"
+			(uuid "7aff6c41-db0f-41d4-a414-575e3ea22ae8")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5053,6 +5326,73 @@
 			(project "scout"
 				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Small")
+		(at 199.39 115.57 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d824c716-1128-4dc3-bb44-7f7781d0d47d")
+		(property "Reference" "D24"
+			(at 199.39 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 196.85 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
+			(at 199.39 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 115.57 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b088b3c-7ecb-4c6c-af38-0e9a8ec2d266")
+		)
+		(pin "2"
+			(uuid "8b65113e-eebe-4eb5-a95f-ace4f7216baf")
+		)
+		(instances
+			(project "scout"
+				(path "/18fe0247-a1dd-4d34-8bfb-cfd059527b74/00000000-0000-0000-0000-000060918984"
+					(reference "D24")
 					(unit 1)
 				)
 			)
