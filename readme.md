@@ -56,6 +56,10 @@ Forked from scout's [2-25_keys](https://github.com/oskitone/scout/tree/2-25_keys
   - More key mounting screw holes? Key bed subassembly with multiple parts
   - Rethink headphone output in signal path to minimize amplified noise
   - 386 bass boost?
+  - Fix PROOF silkscreen text on back
+  - Try shift register for 8 outputs? To resistor array!
+  - Ditch MIDI in. Keep MIDI out but use TRS for smaller footprint
+  - See if speaker can fit in new space?
 - Tiny speaker is quick to distort and has no low end
 - Make it clear/explicit how FUNCTION_INDICATOR_LED is used as "hanging" indicator. Right now, it's incidental.
 
@@ -97,6 +101,8 @@ The cable's black wire should be on the left and green on the right.
 | U3                   | DIP-8_W7.62mm                                     | 1        | 6N138              |
 
 ## Schematics
+
+TODO: update to PROOF B
 
 ![scout_2_prototype-schematic](/kicad/scout_2_prototype-schematic.svg)
 
