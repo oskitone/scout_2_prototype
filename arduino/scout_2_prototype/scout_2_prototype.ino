@@ -100,9 +100,14 @@ void loop() {
 
   for (uint8_t i = 0; i < OSCILLATORS_MAX; i++) {
     if (i < size) {
-      frequency[i].update(notes.get(buffer.getElement(i)) / 4 * pow(2, octave),
-                          glide);
-      loadTone(i, frequency[i].getHalfPeriod());
+      if (glide == 0 || i == 0) {
+        frequency[i].update(
+            notes.get(buffer.getElement(i)) / 4 * pow(2, octave), glide);
+        loadTone(i, frequency[i].getHalfPeriod());
+      } else {
+        frequency[i].reset();
+        loadTone(i, 0);
+      }
     } else {
       if (!glideOnFreshKeyPresses) {
         frequency[i].reset();
