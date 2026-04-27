@@ -5,7 +5,7 @@
 
 // SETTINGS
 int octave = 3;
-float glide = .25;
+int glide = 0;
 bool glideOnFreshKeyPresses = true;
 bool printToSerial = false;
 
@@ -17,6 +17,8 @@ const int GLIDE_PIN = A5;
 
 const int PLAYING_INDICATOR_LED = 13; // ie LED_BUILTIN
 const int FUNCTION_INDICATOR_LED = A3;
+
+const int INPUT_THROTTLE_MS = 100;
 
 Notes notes(STARTING_NOTE_DISTANCE_FROM_MIDDLE_A);
 KeyBuffer buffer;
@@ -56,8 +58,17 @@ void setup() {
 }
 
 void updateFromAnalogInputs() {
+  static uint32_t lastExecution = 0;
+  uint32_t currentMillis = millis();
+
+  if (currentMillis - lastExecution < INPUT_THROTTLE_MS) {
+    return;
+  }
+
+  lastExecution = currentMillis;
+
   int newOctave = map(analogRead(OCTAVE_PIN), 0, 1023, -1, 4);
-  float newGlide = float(analogRead(GLIDE_PIN)) / 1023;
+  int newGlide = map(analogRead(GLIDE_PIN), 0, 1023, 0, GLIDE_MAX);
 
   if (octave != newOctave || glide != newGlide) {
     octave = newOctave;
@@ -73,7 +84,6 @@ void loop() {
   buffer.populate();
   uint8_t size = buffer.getSize();
 
-  // TODO: do this less often...
   updateFromAnalogInputs();
 
   if (printToSerial) {

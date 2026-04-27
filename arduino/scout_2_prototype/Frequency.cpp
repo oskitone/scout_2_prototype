@@ -2,7 +2,7 @@
 #include "Arduino.h"
 #include "Notes.h"
 
-Frequency::Frequency(float glide, int cyclesPerGlideMax) {
+Frequency::Frequency(int glide, int cyclesPerGlideMax) {
   _glide = glide;
   _cyclesPerGlideMax = cyclesPerGlideMax;
 }
@@ -13,7 +13,7 @@ uint16_t Frequency::getHalfPeriod() { return _halfPeriodMicroseconds; }
 
 inline uint16_t castAndRound(float value) { return value + .5f; }
 
-void Frequency::update(float target, float glide) {
+void Frequency::update(float target, int glide) {
   _target = target;
   bool needsUpdate = _frequency != _target;
 
@@ -22,8 +22,8 @@ void Frequency::update(float target, float glide) {
       _frequency = _target;
     } else {
       if (_target != _previousTarget) {
-        _glideStep =
-            abs(_target - _previousTarget) / (glide * _cyclesPerGlideMax);
+        _glideStep = abs(_target - _previousTarget) /
+                     (float(glide) / GLIDE_MAX * _cyclesPerGlideMax);
       }
 
       _frequency = (_target > _frequency)

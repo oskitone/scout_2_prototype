@@ -4,10 +4,12 @@
 #include "Arduino.h"
 #include "Notes.h"
 
+const int GLIDE_MAX = 9;
+
 class Frequency {
 public:
-  Frequency(float glide, int cyclesPerGlideMax);
-  void update(float target, float glide);
+  Frequency(int glide, int cyclesPerGlideMax);
+  void update(float target, int glide);
   float get();
   uint16_t getHalfPeriod();
   void reset();
